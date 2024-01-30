@@ -56,8 +56,8 @@ export default function Home() {
                                     <div className="box-icon-item">
                                         <img src="/assets/images/box-icon/email.png" alt="" />
                                         <div className="title"><Link href="#">Email</Link></div>
-                                        <p>open9@support.com
-                                            open9vietnam@support.com</p>
+                                        <p>blockcityfi@gmail.com
+                                            </p>
                                     </div>
                                 </div>
                                 <div data-wow-delay="0.2s" className="wow fadeInUp col-md-4">
