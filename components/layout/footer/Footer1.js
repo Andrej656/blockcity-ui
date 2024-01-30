@@ -71,7 +71,7 @@ export default function Footer1() {
                         </div>
                     </div>
                     <div className="footer-bottom">
-                        <p>© {new Date().getFullYear()} OpeN9 - Made By Themesflat</p>
+                        <p>© {new Date().getFullYear()} Website proudly made by AV</p>
                         <ul className="flex">
                             <li>
                                 <Link href="#">Privacy Policy</Link>

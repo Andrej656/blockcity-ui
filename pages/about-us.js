@@ -63,8 +63,8 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">This unique story driven nft experience</h1>
-                                        <p data-wow-delay="0.1s" className="wow fadeInUp">get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">This unique story driven by Bitcoin Technology</h1>
+                                        <p data-wow-delay="0.1s" className="wow fadeInUp">Get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
                                             <Link href="#" className="tf-button style-1 h50 w190">Get started <i className="icon-arrow-up-right2" /></Link>
                                         </div>
