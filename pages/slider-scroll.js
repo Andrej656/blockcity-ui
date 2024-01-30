@@ -48,7 +48,7 @@ export default function Home() {
                         <div className="row">
                             <div className="col-12 pages-title">
                                 <div className="content">
-                                    <h1>Join the world’s largest <br /> NFT and Ordinals community &amp; <br /> start collecting NFTS</h1>
+                                    <h1>Join the  <br /> NFT and Ordinals  <br /> community on Bitcoin </h1>
                                     <p>Discover the Most Premium, Unique and Exclusive
                                         NFT Collection builded on Stacks</p>
                                     <div className="flat-button flex">
