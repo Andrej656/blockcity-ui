@@ -1,17 +1,48 @@
+import { useEffect, useState } from 'react';
 import Layout from "@/components/layout/Layout";
-import Action1 from "@/components/sections/Action1";
-import CreateSell1 from "@/components/sections/CreateSell1";
-import DiscoverItem1 from "@/components/sections/DiscoverItem1";
-import FeaturedItem1 from "@/components/sections/FeaturedItem1";
 import FlatTitle1 from "@/components/sections/FlatTitle1";
+import FeaturedItem1 from "@/components/sections/FeaturedItem1";
 import Seller1 from "@/components/sections/Seller1";
-import TopCollections1 from "@/components/sections/TopCollections1";
+import DiscoverItem1 from "@/components/sections/DiscoverItem1";
 import TopCollector1 from "@/components/sections/TopCollector1";
-import NFTList from "@/components/NFTList"; // Import the NFTList component
+import TopCollections1 from "@/components/sections/TopCollections1";
+import CreateSell1 from "@/components/sections/CreateSell1";
+import Action1 from "@/components/sections/Action1";
 
 export default function Home() {
-  const principalAddress = 'ST000000000000000000002AMW42H'; // Replace with your Stacks address
-  const assetIdentifiers = ['asset1', 'asset2']; // Array of asset identifiers to filter for
+  const principalAddress = 'ST000000000000000000002AMW42H';
+  const assetIdentifiers = ['asset1', 'asset2'];
+
+  const apiEndpoint = 'https://api.mainnet.hiro.so/extended/v1/tokens/nft/holdings';
+
+  const [nftHoldings, setNftHoldings] = useState([]);
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch(
+        `${apiEndpoint}?principal=${principalAddress}&assets=${assetIdentifiers.join(',')}`,
+        {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+
+      if (response.ok) {
+        const data = await response.json();
+        setNftHoldings(data.results || []);
+      } else {
+        console.error('Failed to fetch NFT holdings:', response.statusText);
+      }
+    } catch (error) {
+      console.error('Error fetching NFT holdings:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []); // Fetch data when the component mounts
 
   return (
     <>
@@ -25,8 +56,18 @@ export default function Home() {
         <CreateSell1 />
         <Action1 />
 
-        {/* Add the NFTList component with the required props */}
-        <NFTList principalAddress={principalAddress} assetIdentifiers={assetIdentifiers} />
+        {/* Render NFT Holdings */}
+        <section>
+          <h2>NFT Holdings</h2>
+          <ul>
+            {nftHoldings.map((holding, index) => (
+              <li key={index}>
+                {/* Render NFT holding details as needed */}
+                {JSON.stringify(holding)}
+              </li>
+            ))}
+          </ul>
+        </section>
       </Layout>
     </>
   );

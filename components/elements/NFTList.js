@@ -1,36 +1,39 @@
-// components/NFTList.js
-import React, { useState, useEffect } from 'react';
-import { fetchNFTHoldings } from '../utils/stacksApi';
+// components/elements/NFTList.js
 
-function NFTList({ principalAddress, assetIdentifiers }) {
-  const [nftHoldings, setNFTHoldings] = useState([]);
+import React, { useState, useEffect } from 'react';
+import { getNFTs } from '../../util/stacks-api'; // Import the function to fetch NFTs
+
+const NFTList = ({ principalAddress, assetIdentifiers }) => {
+  const [nfts, setNFTs] = useState([]);
 
   useEffect(() => {
-    const fetchData = async () => {
+    // Fetch NFTs when the component mounts
+    const fetchNFTs = async () => {
       try {
-        const result = await fetchNFTHoldings(principalAddress, assetIdentifiers);
-        setNFTHoldings(result);
+        const nftsData = await getNFTs(principalAddress, assetIdentifiers);
+        setNFTs(nftsData);
       } catch (error) {
-        console.error('Error fetching NFT holdings:', error);
+        console.error('Error fetching NFTs:', error);
       }
     };
 
-    fetchData();
+    fetchNFTs();
   }, [principalAddress, assetIdentifiers]);
 
   return (
     <div>
-      <h2>Your NFT Holdings</h2>
-      <ul>
-        {nftHoldings.map((nft) => (
-          <li key={nft.tx_id}>
-            {/* Render NFT details here */}
-            {nft.tx_id}
-          </li>
-        ))}
-      </ul>
+      <h2>Your NFTs</h2>
+      {nfts.map((nft, index) => (
+        <div key={index}>
+          <p>{`NFT ${index + 1}: ${nft.name} - ${nft.description}`}</p>
+          {/* Render additional details based on your needs */}
+          <p>{`Owner: ${nft.owner}`}</p>
+          <p>{`Price: ${nft.price}`}</p>
+          {/* Add more details as needed */}
+        </div>
+      ))}
     </div>
   );
-}
+};
 
 export default NFTList;
