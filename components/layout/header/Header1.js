@@ -1,10 +1,51 @@
-import Link from "next/link"
-import { useState } from 'react'
-import Menu from "../Menu"
-import MobileMenu from "../MobileMenu"
+import Link from "next/link";
+import { useState } from 'react';
+import { AppConfig, UserSession, showConnect } from '@stacks/connect';
+import { StacksMainnet } from '@stacks/network';
+import Menu from "../Menu";
+import MobileMenu from "../MobileMenu";
+
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
-    const [isSidebar, setSidebar] = useState(false)
-    const handleSidebar = () => setSidebar(!isSidebar)
+    const [isSidebar, setSidebar] = useState(false);
+    const [, setCardinalAddress] = useState('');
+    const [, setOrdinalAddress] = useState('');
+
+    const handleSidebar = () => setSidebar(!isSidebar);
+
+    const appConfig = new AppConfig();
+    const userSession = new UserSession({ appConfig });
+
+    const handleConnect = async () => {
+        try {
+            if (!userSession.isUserSignedIn()) {
+                showConnect({
+                    userSession,
+                    network: StacksMainnet,
+                    appDetails: {
+                        name: 'Your App Name',
+                        icon: window.location.origin + '/app-icon.png',
+                    },
+                    onFinish: async () => {
+                        const userAddresses = await window.btc?.request('getAddresses');
+                        // Assuming the first address is the one you want to use
+                        const [firstAddress] = userAddresses?.result?.addresses || [];
+                        setCardinalAddress(firstAddress?.address || '');
+                        setOrdinalAddress(firstAddress?.address || '');
+                    },
+                    onCancel: () => {
+                        // Handle if the user closes the connection prompt
+                    },
+                });
+            } else {
+                // User is already signed in, handle accordingly
+                setCardinalAddress(userSession.loadUserData().profile.btcAddress?.p2wpkh?.mainnet || '');
+                setOrdinalAddress(userSession.loadUserData().profile.btcAddress?.p2tr?.mainnet || '');
+            }
+        } catch (error) {
+            console.error('Error connecting wallet:', error);
+        }
+    };
+
     return (
         <>
             <header id="header_main" className={`header_1 header-fixed ${scroll ? "is-fixed is-small" : ""}`}>
@@ -19,19 +60,19 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                                 <img id="logo_header" src="/assets/images/logo/logo.png" data-retina="assets/images/logo/logo@2x.png" />
                                             </Link>
                                         </div>
-                                    </div>{/* logo */}
+                                    </div>
                                     <div className="mobile-button" onClick={handleMobileMenu}>
                                         <span />
-                                    </div>{/* /.mobile-button */}
+                                    </div>
                                     <nav id="main-nav" className="main-nav">
                                         <Menu />
-                                    </nav>{/* /#main-nav */}
+                                    </nav>
                                     <div className="flat-wallet flex">
                                         <div id="wallet-header">
-                                            <Link href="/market-wallet" id="connectbtn" className="tf-button style-1">
+                                            <button id="connectbtn" className="tf-button style-1" onClick={handleConnect}>
                                                 <span>Wallet connect</span>
                                                 <i className="icon-wa" />
-                                            </Link>
+                                            </button>
                                         </div>
                                         <div className="canvas" onClick={handleSidebar}>
                                             <span />
