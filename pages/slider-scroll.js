@@ -48,9 +48,9 @@ export default function Home() {
                         <div className="row">
                             <div className="col-12 pages-title">
                                 <div className="content">
-                                    <h1>Join the world’s largest <br /> nFT community &amp; <br /> start collecting NFTS</h1>
+                                    <h1>Join the  <br /> NFT and Ordinals  <br /> community on Bitcoin </h1>
                                     <p>Discover the Most Premium, Unique and Exclusive
-                                        NFT Collection</p>
+                                        NFT Collection builded on Stacks</p>
                                     <div className="flat-button flex">
                                         <Link href="#" className="tf-button style-1 h50 w230 mr-10">Create your first NFT <i className="icon-arrow-up-right2" /></Link>
                                         <Link href="#" className="tf-button style-1 h50 w190 active">Explore now <i className="icon-arrow-up-right2" /></Link>

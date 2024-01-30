@@ -57,14 +57,14 @@ export default function Home() {
 
             <Layout headerStyle={1} footerStyle={1} pageCls="about-us-page">
 
-                <div>
+                
                     <div className="page-title about-us relative">
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">This unique story driven nft experience</h1>
-                                        <p data-wow-delay="0.1s" className="wow fadeInUp">get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">This unique story driven by Bitcoin Technology</h1>
+                                        <p data-wow-delay="0.1s" className="wow fadeInUp">Get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
                                             <Link href="#" className="tf-button style-1 h50 w190">Get started <i className="icon-arrow-up-right2" /></Link>
                                         </div>
@@ -395,15 +395,15 @@ export default function Home() {
                                 <div className="col-md-6">
                                     <div className="flat-accordion">
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle">
-                                            <h6 className={isActive.key == 1 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(1)}>1. Why are NFTs becoming popular?</h6>
+                                            <h6 className={isActive.key == 1 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(1)}>1. Why are NFTs on Bitcoin becoming popular?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                                <p>Celebrate uniqueness with our NFT marketplace on Bitcoin's secure and sustainable layer 2. Join a thriving community, explore cross-chain possibilities, and experience innovation with trust. Choose NFTs on Bitcoin for a cutting-edge and eco-friendly journey into the world of digital assets."</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle">
                                             <h6 className={isActive.key == 2 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(2)}>2. How do I keep my NFTs safe?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                                <p>Safeguard your NFTs with these tips: Use secure wallets, enable two-factor authentication, keep private keys offline, and verify smart contracts. Stay informed, trust reputable platforms, and enjoy a worry-free NFT experience</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle">
@@ -415,13 +415,13 @@ export default function Home() {
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle">
                                             <h6 className={isActive.key == 4 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(4)}>4. What is an NFT?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                                <p>"NFTs, or Non-Fungible Tokens, are unique digital assets representing ownership or proof of authenticity for digital or physical items, stored on blockchain technology.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle">
-                                            <h6 className={isActive.key == 5 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(5)}>5. How do I set up my Ledger?</h6>
+                                            <h6 className={isActive.key == 5 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(5)}>5. What are Ordinals?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                                <p>Ordinals are means of creating Bitcoin NFTs by attaching data such as images, videos, and more to an individual satoshi on the base Bitcoin blockchain</p>
                                             </div>
                                         </div>
                                     </div>
@@ -429,15 +429,16 @@ export default function Home() {
                                 <div className="col-md-6">
                                     <div className="flat-accordion2">
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 6 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(6)}>6. Why are NFTs becoming popular?</h6>
+                                            <h6 className={isActive.key == 6 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(6)}>6. Why are NFTs on Bitcoin  becoming popular?</h6>
+                                            
                                             <div className="toggle-content" style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                                <p>Celebrate uniqueness with our NFT marketplace on Bitcoin's secure and sustainable layer 2. Join a thriving community, explore cross-chain possibilities, and experience innovation with trust. Choose NFTs on Bitcoin for a cutting-edge and eco-friendly journey into the world of digital assets.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
                                             <h6 className={isActive.key == 7 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(7)}>7. How do I keep my NFTs safe?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                                <p>Safeguard your NFTs with these tips: Use secure wallets, enable two-factor authentication, keep private keys offline, and verify smart contracts. Stay informed, trust reputable platforms, and enjoy a worry-free NFT experience</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
@@ -449,21 +450,20 @@ export default function Home() {
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
                                             <h6 className={isActive.key == 9 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(9)}>9. What is an NFT?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 9 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                                <p>"NFTs, or Non-Fungible Tokens, are unique digital assets representing ownership or proof of authenticity for digital or physical items, stored on blockchain technology.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 10 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(10)}>10. How do I set up my Ledger?</h6>
+                                            <h6 className={isActive.key == 10 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(10)}>10. What are Ordinals?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 10 ? "block" : "none"}` }}>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                            </div>
+                                                <p>Ordinals are means of creating Bitcoin NFTs by attaching data such as images, videos, and more to an individual satoshi on the base Bitcoin blockchain</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-12">
                                     <div className="content">
                                         <div className="text">Still have question?</div>
-                                        <p>Can't find what you're looking for? Please <Link href="#" className="tf-color">chat to our friendly team</Link></p>
+                                        <p>Can't find what you're looking for? Please <Link href="#" className="tf-color">Chat to our friendly team</Link></p>
                                     </div>
                                 </div>
                             </div>
@@ -474,8 +474,8 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="widget-income">
-                                        <div className="title">Generate passive income with the platform <span className="tf-color">Open9</span></div>
-                                        <p>get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
+                                        <div className="title">Generate passive income with the platform <span className="tf-color">Blockcity</span></div>
+                                        <p>Get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
                                         <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
                                             <img className="iphone" src="/assets/images/box-icon/iphone.png" alt="" />

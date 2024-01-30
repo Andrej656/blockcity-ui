@@ -65,7 +65,7 @@ export default function Menu() {
             </ul>
           </li>
           <li className={`menu-item ${router.pathname === "/author-2" ? "current-item" : ""}`}>
-            <Link href="/author-2">Authors Style 2</Link>
+            <Link href="/author-2">Author dashboard</Link>
           </li>
         </ul>
       </li>
