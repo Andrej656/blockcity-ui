@@ -1,151 +1,142 @@
-(define-data-var user-nfts (map principal (list uint)))
-(define-data-var user-stakes (map principal (list (tuple (nft-id uint) (percentage uint)))))
-(define-data-var nft-status (map uint string))
-(define-data-var nft-prices (map uint uint))
-(define-data-var nft-earnings (map uint uint))
-(define-data-var last-price-oracle-response (tuple (stx-usd uint)))
-(define-data-var coingecko-api-url "https://api.coingecko.com/api/v3/simple/price?ids=stacks&vs_currencies=usd")
-(define-data-var admin-address "SP1GDFGHR0DJESZNCN4HZDGW4ZBNM1M7X1A7TFV3W")
 
-(define-public (get-user-nfts)
-  (ok (map-entries (at-block user-nfts))))
 
-(define-public (get-user-stakes)
-  (ok (map-entries (at-block user-stakes))))
 
-(define-public (get-nft-info (_nft-id uint))
-  (ok (map-merge
-       (map-merge
-        (map (at-block user-nfts))
-        (map (at-block user-stakes)))
-       (map-merge
-        (map (at-block nft-status))
-        (map (at-block nft-earnings))))))
+;; Import SIP009 and SIP010 traits
+(use-trait nft-trait 'SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait.nft-trait)
+(use-trait ft-trait 'SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard.sip010-trait)
 
-(define-read-only (get-last-price)
-  (ok (at-block last-price-oracle-response)))
+(define-constant contract-owner tx-sender)
 
-(define-public (update-price-oracle)
-  (if (principals-equal? (get-principal (tx-sender)) (stx-principal))
-      (begin
-        (let ((oracle-response (http-get coingecko-api-url)))
-          (if (err? oracle-response)
-              (err "Error fetching price from Coingecko")
-              (begin
-                (map-set last-price-oracle-response (get-principal (tx-sender)) oracle-response)
-                (ok "Price oracle updated")))))
-      (err "Unauthorized access")))
+;; Listing errors
+(define-constant err-expiry-in-past (err u1000))
+(define-constant err-price-zero (err u1001))
 
-(define-private (is-admin)
-  (if (principals-equal? (get-principal (tx-sender)) admin-address)
-      true
-      false))
+;; Cancelling and fulfilling errors
+(define-constant err-unknown-listing (err u2000))
+(define-constant err-unauthorised (err u2001))
+(define-constant err-listing-expired (err u2002))
+(define-constant err-nft-asset-mismatch (err u2003))
+(define-constant err-payment-asset-mismatch (err u2004))
+(define-constant err-maker-taker-equal (err u2005))
+(define-constant err-unintended-taker (err u2006))
+(define-constant err-asset-contract-not-whitelisted (err u2007))
+(define-constant err-payment-contract-not-whitelisted (err u2008))
 
-(define-private (is-contract-caller-admin)
-  (if (principals-equal? (contract-principal) (stx-principal))
-      true
-      false))
+;; Data storage
+(define-map listings
+    uint
+    {
+        maker: principal,
+        taker: (optional principal),
+        token-id: uint,
+        nft-asset-contract: principal,
+        expiry: uint,
+        price: uint,
+        payment-asset-contract: (optional principal)
+    }
+)
 
-(define-public (mint-nft (_creator principal) (_collection principal) (_type uint) (_metadata string) (_intrinsic-value uint))
-  (if (and (is-contract-caller-admin) (is-admin))
-      (begin
-        (let ((nft-id (get-nft-id _creator _collection _type)))
-          (map-set user-nfts (get-principal (tx-sender)) (append (map-get user-nfts (get-principal (tx-sender))) nft-id))
-          (map-set nft-status nft-id "Minted")
-          (map-set nft-prices nft-id 0)
-          (map-set nft-earnings nft-id 0)
-          (ok nft-id)))
-      (err "Unauthorized access"))
+(define-data-var listing-nonce uint u0)
 
-(define-public (stake-nft (_nft-id uint) (_percentage uint))
-  (if (is-contract-caller-admin)
-      (begin
-        (if (and (<= _percentage 100) (>= _percentage 0))
-            (begin
-              (let* ((total-stake (fold 
-                                   (at-block user-stakes)
-                                   (u0 (tuple (total uint) (percentage uint)))
-                                   (fold (at u0) 
-                                         (list 
-                                          (if (principals-equal? (get-principal (map-get user-stakes (get-principal (tx-sender)))) (get-principal (tx-sender)))
-                                              (u1 (tuple (total (+ (tuple-get total u1) (tuple-get percentage u1))) (percentage (tuple-get percentage u1))))
-                                              (u2 (tuple (total (tuple-get total u2)) (percentage (tuple-get percentage u2))))))
-                                         (tuple (total 0) (percentage 0)))))
-                (if (> (+ (tuple-get percentage total-stake) _percentage) 100)
-                    (err "Stake percentage exceeds 100%")
-                    (begin
-                      (map-set user-stakes (get-principal (tx-sender)) (append (map-get user-stakes (get-principal (tx-sender))) (tuple (nft-id _nft-id) (percentage _percentage))))
-                      (ok "NFT staked")))))
-            (err "Invalid percentage")))
-      (err "Unauthorized access")))
+;; Asset whitelist
+(define-map whitelisted-asset-contracts principal bool)
 
-(define-public (unstake-nft (_nft-id uint))
-  (if (is-contract-caller-admin)
-      (begin
-        (let* ((stake-info (fold 
-                             (at-block user-stakes)
-                             (u0 (tuple (total uint) (percentage uint)))
-                             (fold (at u0) 
-                                   (list 
-                                    (if (principals-equal? (get-principal (map-get user-stakes (get-principal (tx-sender)))) (get-principal (tx-sender)))
-                                        (u1 (tuple (total (tuple-get total u1)) (percentage (tuple-get percentage u1))))
-                                        (u2 (tuple (total (tuple-get total u2)) (percentage (tuple-get percentage u2))))))
-                                   (tuple (total 0) (percentage 0)))))
-          (let* ((user-stake (at u1 (map-get user-stakes (get-principal (tx-sender))))))
-            (if (not (list-contains? (map-get user-stake 0) _nft-id))
-                (err "NFT not staked by user")
-                (begin
-                  (map-set user-stakes (get-principal (tx-sender)) (remove-nft-stake (map-get user-stakes (get-principal (tx-sender))) _nft-id))
-                  (ok "NFT unstaked")))))
-      (err "Unauthorized access")))
+(define-read-only (is-whitelisted (asset-contract principal))
+    (default-to false (map-get? whitelisted-asset-contracts asset-contract))
+)
 
-(define-public (list-nft-for-sale (_nft-id uint) (_sale-price uint) (_duration uint))
-  (if (is-contract-caller-admin)
-      (begin
-        (map-set nft-status _nft-id "For Sale")
-        (map-set nft-prices _nft-id _sale-price)
-        (ok "NFT listed for sale"))
-      (err "Unauthorized access")))
+(define-public (set-whitelisted (asset-contract principal) (whitelisted bool))
+    (begin
+        (asserts! (is-eq contract-owner tx-sender) err-unauthorised)
+        (ok (map-set whitelisted-asset-contracts asset-contract whitelisted))
+    )
+)
 
-(define-public (buy-nft (_nft-id uint) (_bid-amount uint))
-  (if (is-contract-caller-admin)
-      (begin
-        (let* ((seller (get-principal (map-get user-nfts _nft-id))))
-          (stx-transfer? _bid-amount (stx-principal) seller)
-          (map-set nft-status _nft-id "Sold")
-          (map-set nft-earnings _nft-id (+ (map-get nft-earnings _nft-id) _bid-amount))
-          (ok "NFT bought")))
-      (err "Unauthorized access")))
+;; SIP009 NFT Mint function
+(define-public (mint-nft (recipient principal))
+    (let ((token-id (+ (var-get token-id-nonce) u1)))
+        (asserts! (is-eq tx-sender contract-owner) err-owner-only)
+        (try! (nft-mint? stacksies token-id recipient))
+        (asserts! (var-set token-id-nonce token-id) err-token-id-failure)
+        (ok token-id)
+    )
+)
 
-(define-private (remove-nft-stake (_stake-list (list (tuple (nft-id uint) (percentage uint)))) (_nft-id uint))
-  (if (is-empty? _stake-list)
-      (list)
-      (if (= (map-get (at _stake-list 0) 0) _nft-id)
-          (remove-nft-stake (list-drop 1 _stake-list) _nft-id)
-          (cons (at _stake-list 0) (remove-nft-stake (list-drop 1 _stake-list) _nft-id)))))
+;; SIP010 FT Mint function
+(define-public (mint-ft (amount uint) (recipient principal))
+    (begin
+        (asserts! (is-eq tx-sender contract-owner) err-owner-only)
+        (ft-mint? amazing-coin amount recipient)
+    )
+)
 
-(define-public (distribute-earnings)
-  (if (and (is-contract-caller-admin) (is-admin))
-      (begin
-        (let* ((nft-list (map-merge (at-block nft-prices) (at-block nft-earnings))))
-          (fold 
-           (at-block user-nfts)
-           (u0 (tuple (total uint) (percentage uint)))
-           (fold (at u0) 
-                 (list 
-                  (u1 (tuple (total (tuple-get total u1)) (percentage (tuple-get percentage u1)))))
-                 (let* ((user-stakes (map-get user-stakes (get-principal (at u1 0)))))
-                   (fold 
-                    user-stakes
-                    (u2 (tuple (total uint) (percentage uint)))
-                    (fold (at u2) 
-                          (list 
-                           (u3 (tuple (total (tuple-get total u3)) (percentage (tuple-get percentage u3)))))
-                          (begin
-                            (let* ((nft-id (at u3 0))
-                                   (percentage (at u3 1))
-                                   (earnings (div (mul (at nft-list nft-id) percentage) 100)))
-                              (stx-transfer? earnings (stx-principal) (get-principal (at u1 0)))
-                              (map-set nft-earnings nft-id (- (at nft-earnings nft-id) earnings)))))))))))
-        (ok "Earnings distributed"))
-      (err "Unauthorized access")))
+;; Helper functions for transferring NFTs and FTs
+(define-private (transfer-nft (token-contract <nft-trait>) (token-id uint) (sender principal) (recipient principal))
+    (contract-call? token-contract transfer token-id sender recipient)
+)
+
+(define-private (transfer-ft (token-contract <ft-trait>) (amount uint) (sender principal) (recipient principal))
+    (contract-call? token-contract transfer amount sender recipient none)
+)
+
+;; Listing an NFT
+(define-public (list-asset (nft-asset-contract <nft-trait>) (nft-asset {taker: (optional principal), token-id: uint, expiry: uint, price: uint, payment-asset-contract: (optional principal)}))
+    (let ((listing-id (var-get listing-nonce)))
+        (asserts! (is-whitelisted (contract-of nft-asset-contract)) err-asset-contract-not-whitelisted)
+        (asserts! (> (get expiry nft-asset) block-height) err-expiry-in-past)
+        (asserts! (> (get price nft-asset) u0) err-price-zero)
+        (asserts! (match (get payment-asset-contract nft-asset) payment-asset (is-whitelisted payment-asset) true) err-payment-contract-not-whitelisted)
+        (try! (transfer-nft nft-asset-contract (get token-id nft-asset) tx-sender (as-contract tx-sender)))
+        (map-set listings listing-id (merge {maker: tx-sender, nft-asset-contract: (contract-of nft-asset-contract)} nft-asset))
+        (var-set listing-nonce (+ listing-id u1))
+        (ok listing-id)
+    )
+)
+
+;; Cancelling a listing
+(define-public (cancel-listing (listing-id uint) (nft-asset-contract <nft-trait>))
+    (let (
+        (listing (unwrap! (map-get? listings listing-id) err-unknown-listing))
+        (maker (get maker listing))
+        )
+        (asserts! (is-eq maker tx-sender) err-unauthorised)
+        (asserts! (is-eq (get nft-asset-contract listing) (contract-of nft-asset-contract)) err-nft-asset-mismatch)
+        (map-delete listings listing-id)
+        (as-contract (transfer-nft nft-asset-contract (get token-id listing) tx-sender maker))
+    )
+)
+
+;; Retrieve a listing by ID
+(define-read-only (get-listing (listing-id uint))
+    (map-get? listings listing-id)
+)
+;; Fulfillment in STX
+
+(define-public (fulfil-listing-stx (listing-id uint) (nft-asset-contract <nft-trait>))
+    (let (
+        (listing (unwrap! (map-get? listings listing-id) err-unknown-listing))
+        (taker tx-sender)
+        )
+        (try! (assert-can-fulfil (contract-of nft-asset-contract) none listing))
+        (try! (as-contract (transfer-nft nft-asset-contract (get token-id listing) tx-sender taker)))
+        (try! (stx-transfer? (get price listing) taker (get maker listing)))
+        (map-delete listings listing-id)
+        (ok listing-id)
+    )
+)
+
+;; Fulfillment in SIP010 Fungible Tokens
+
+(define-public (fulfil-listing-ft (listing-id uint) (nft-asset-contract <nft-trait>) (payment-asset-contract <ft-trait>))
+    (let (
+        (listing (unwrap! (map-get? listings listing-id) err-unknown-listing))
+        (taker tx-sender)
+        )
+        (try! (assert-can-fulfil (contract-of nft-asset-contract) (some (contract-of payment-asset-contract)) listing))
+        (try! (as-contract (transfer-nft nft-asset-contract (get token-id listing) tx-sender taker)))
+        (try! (transfer-ft payment-asset-contract (get price listing) taker (get maker listing)))
+        (map-delete listings listing-id)
+        (ok listing-id)
+    )
+)
+
