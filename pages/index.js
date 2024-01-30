@@ -7,7 +7,7 @@ import FlatTitle1 from "@/components/sections/FlatTitle1";
 import Seller1 from "@/components/sections/Seller1";
 import TopCollections1 from "@/components/sections/TopCollections1";
 import TopCollector1 from "@/components/sections/TopCollector1";
-import NFTList from "@/components/NFTList"; // Import the NFTList component
+import NFTList from "../components/elements/NFTList"; // Import the NFTList component
 
 export default function Home() {
   const principalAddress = 'ST000000000000000000002AMW42H'; // Replace with your Stacks address

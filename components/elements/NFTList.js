@@ -1,6 +1,6 @@
 // components/NFTList.js
 import React, { useState, useEffect } from 'react';
-import { fetchNFTHoldings } from '../utils/stacksApi';
+import { fetchNFTHoldings } from '../../util/stacks-api';
 
 function NFTList({ principalAddress, assetIdentifiers }) {
   const [nftHoldings, setNFTHoldings] = useState([]);
