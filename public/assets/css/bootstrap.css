@@ -90,7 +90,7 @@ dfn {
 }
 
 mark {
-  background-color: #ff0;
+  background-color: #5546ff;
   color: #000;
 }
 
@@ -2138,7 +2138,7 @@ pre code {
 .table-success,
 .table-success > th,
 .table-success > td {
-  background-color: #dff0d8;
+  background-color: #5546ff;
 }
 
 .table-hover .table-success:hover {
@@ -4963,7 +4963,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .alert-success {
-  background-color: #dff0d8;
+  background-color: #d5546ffd8;
   border-color: #d0e9c6;
   color: #3c763d;
 }
@@ -5212,7 +5212,7 @@ a.badge:focus, a.badge:hover {
 
 .list-group-item-success {
   color: #3c763d;
-  background-color: #dff0d8;
+  background-color: #d5546ffd8;
 }
 
 a.list-group-item-success,
