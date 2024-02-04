@@ -63,8 +63,8 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">This unique story driven by Bitcoin Technology</h1>
-                                        <p data-wow-delay="0.1s" className="wow fadeInUp">Get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">Marketplace on Bitcoin Technology</h1>
+                                        <p data-wow-delay="0.1s" className="wow fadeInUp">Get started with the easiest and most secure platform to buy and trade digital ART and NFTs on Bitcoin</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
                                             <Link href="#" className="tf-button style-1 h50 w190">Get started <i className="icon-arrow-up-right2" /></Link>
                                         </div>
@@ -202,22 +202,23 @@ export default function Home() {
                                 <div data-wow-delay="0s" className="wow fadeInUp col-md-4">
                                     <div className="box-icon-item">
                                         <img src="/assets/images/item-background/about-01.png" alt="" />
-                                        <div className="title"><Link href="#">Flexible payment</Link></div>
-                                        <p>Fusce non dignissim velit, sit amet semper eros. Quisque orci est</p>
+                                        <div className="title"><Link href="#">HODL</Link></div>
+                                        <p>Passive income made easy! HODL to earn yields in Layer1 Bitcoin (non-custodial)
+</p>
                                     </div>
                                 </div>
                                 <div data-wow-delay="0.1s" className="wow fadeInUp col-md-4">
                                     <div className="box-icon-item">
                                         <img src="/assets/images/item-background/about-02.png" alt="" />
-                                        <div className="title"><Link href="#">Huge data warehouse</Link></div>
-                                        <p>Fusce non dignissim velit, sit amet semper eros. Quisque orci est</p>
+                                        <div className="title"><Link href="#">Compound</Link></div>
+                                        <p>Watch your passive income grow exponentially, all tax-efficiently!</p>
                                     </div>
                                 </div>
                                 <div data-wow-delay="0.2s" className="wow fadeInUp col-md-4">
                                     <div className="box-icon-item">
                                         <img src="/assets/images/item-background/about-03.png" alt="" />
-                                        <div className="title"><Link href="#">3 layer security</Link></div>
-                                        <p>Fusce non dignissim velit, sit amet semper eros. Quisque orci est</p>
+                                        <div className="title"><Link href="#">Borrow</Link></div>
+                                        <p>Secure an instant loan at 0% interest using your ordinal. Discover the future!</p>
                                     </div>
                                 </div>
                             </div>
@@ -429,46 +430,48 @@ export default function Home() {
                                 <div className="col-md-6">
                                     <div className="flat-accordion2">
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 6 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(6)}>6. Why are NFTs on Bitcoin  becoming popular?</h6>
+                                            <h6 className={isActive.key == 6 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(6)}>6. BRC-20 sounds familiar?</h6>
                                             
                                             <div className="toggle-content" style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                                                <p>Celebrate uniqueness with our NFT marketplace on Bitcoin's secure and sustainable layer 2. Join a thriving community, explore cross-chain possibilities, and experience innovation with trust. Choose NFTs on Bitcoin for a cutting-edge and eco-friendly journey into the world of digital assets.</p>
+                                                <p>BRC-20 tokens are fungible digital assets created on the Bitcoin blockchain.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 7 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(7)}>7. How do I keep my NFTs safe?</h6>
+                                            <h6 className={isActive.key == 7 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(7)}>7. What is Stacks?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
-                                                <p>Safeguard your NFTs with these tips: Use secure wallets, enable two-factor authentication, keep private keys offline, and verify smart contracts. Stay informed, trust reputable platforms, and enjoy a worry-free NFT experience</p>
+                                                <p>Stacks, formerly Blockstack, is a blockchain platform for smart contracts, decentralized finance ("DeFi"), NFTs, and decentralized apps ("DApps"). Stacks blockchain is a layer for bitcoin similar to the Lightning Network.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 8 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(8)}>8. What is blockchain?</h6>
+                                            <h6 className={isActive.key == 8 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(8)}>8. Hiro Systems?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 8 ? "block" : "none"}` }}>
-                                                <p>Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding). Virtually anything of value can be tracked and traded on a blockchain network, reducing risk and cutting costs for all involved</p>
+                                                <p>Hiro is a company that creates developer tools for Stacks, a network that enables apps and smart contracts for Bitcoin.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 9 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(9)}>9. What is an NFT?</h6>
+                                            <h6 className={isActive.key == 9 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(9)}>9. What is Fastpool used for?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 9 ? "block" : "none"}` }}>
-                                                <p>"NFTs, or Non-Fungible Tokens, are unique digital assets representing ownership or proof of authenticity for digital or physical items, stored on blockchain technology.</p>
+                                                <p>Fastpool is pool specializd for miners to get rewards from mining.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 10 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(10)}>10. What are Ordinals?</h6>
+                                            <h6 className={isActive.key == 10 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(10)}>10. Leather Wallet?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 10 ? "block" : "none"}` }}>
-                                                <p>Ordinals are means of creating Bitcoin NFTs by attaching data such as images, videos, and more to an individual satoshi on the base Bitcoin blockchain</p>
+                                                <p>Manage BTC, Ordinals, Stamps, BRC-20 tokens, STX, Stacks NFTs, and other assets secured by Bitcoin with the most popular, battle-tested wallet for Bitcoin Web3</p>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className="col-12">
-                                    <div className="content">
-                                        <div className="text">Still have question?</div>
-                                        <p>Can't find what you're looking for? Please <Link href="#" className="tf-color">Chat to our friendly team</Link></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                           </div>
+                           </div>
+                           </div>
+                           </div>
+                           </div>
+                           
+                           <br>
+                           
+                           </br>
+                           
+                           <br>
+                           
+                           </br>
                     <div className="tf-section-2">
                         <div className="themesflat-container">
                             <div className="row">
@@ -479,10 +482,10 @@ export default function Home() {
                                         <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
                                            
-                                            <img className="icon-1" src="/assets/images/item-background/item11.png" alt="" />
-                                            <img className="icon-2" src="/assets/images/item-background/item12.png" alt="" />
-                                            <img className="icon-3" src="/assets/images/item-background/item13.png" alt="" />
-                                            <img className="icon-4" src="/assets/images/item-background/item14.png" alt="" />
+                                            <img className="icon-1" src="/assets/images/item-background/item4.png" alt="" />
+                                            <img className="icon-2" src="/assets/images/item-background/item3.png" alt="" />
+                                            <img className="icon-3" src="/assets/images/item-background/item10.png" alt="" />
+                                            <img className="icon-4" src="/assets/images/item-background/item11.png" alt="" />
                                         </div>
                                     </div>
                                 </div>

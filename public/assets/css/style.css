@@ -725,7 +725,7 @@ input[type="submit"] {
     font-size         : 14px;
     line-height       : 22px;
     background-color  : #5546ff;
-    color             : rgba(22, 22, 22, 1);
+    color             : rgb(255, 252, 252);
     border-radius     : 14px;
     padding           : 10px;
     height            : 50px;
