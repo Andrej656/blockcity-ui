@@ -1237,12 +1237,12 @@ a:focus {
 #main-nav>ul>li:hover>a,
 #main-nav>.menu>li:hover>a::after,
 #main-nav>.menu>li.current-menu-item>a::after {
-    color: #E2FE26;
+    color: #5546ff;
     opacity: 1;
 }
 
 #main-nav>ul>li.current-menu-item>a {
-    color: #E2FE26;
+    color: #5546ff;
     font-weight: 800;
 }
 
