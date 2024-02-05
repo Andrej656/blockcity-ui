@@ -63,17 +63,18 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">Marketplace on Bitcoin Technology</h1>
-                                        <p data-wow-delay="0.1s" className="wow fadeInUp">Get started with the easiest and most secure platform to buy and trade digital ART and NFTs on Bitcoin</p>
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">INVΞST SMΛRT, ΞARN PΛSSIVΞLY
+</h1>
+                                        <p data-wow-delay="0.1s" className="wow fadeInUp">We're excited to announce our support for the upcoming Nakamoto release! You'll have the opportunity to lend your dormat Layer1 Bitcoins in a trustless way, earning yields in Layer1 Bitcoin that can potentially grow over time</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
-                                            <Link href="#" className="tf-button style-1 h50 w190">Get started <i className="icon-arrow-up-right2" /></Link>
+                                            <Link href=" https://blockcityfi.substack.com/p/introduction" className="tf-button style-1 h50 w190">Get started <i className="icon-arrow-up-right2" /></Link>
                                         </div>
                                     </div>
                                     <div className="icon-background">
                                         <img className="absolute item1" src="/assets/images/item-background/item11.png" alt="" />
                                         <img className="absolute item2" src="/assets/images/item-background/item10.png" alt="" />
-                                        <img className="absolute item3" src="/assets/images/item-background/item12.png" alt="" />
-                                        <img className="absolute item4" src="/assets/images/item-background/item13.png" alt="" />
+                                        <img className="absolute item3" src="/assets/images/item-background/item16.png" alt="" />
+                                        <img className="absolute item4" src="/assets/images/item-background/item2.png" alt="" />
                                     </div>
                                     <div className="relative">
                                         <Swiper {...swiperOptions} className="swiper-container carousel3-type2">
@@ -184,7 +185,7 @@ export default function Home() {
                                             <div className="number-counter">
                                                 <span className="number" data-speed={3000} data-to={128} data-inviewport="yes"><CounterUp count={128} time={1} /></span>K+
                                             </div>
-                                            <h6 className="title">NFTs Created</h6>
+                                            <h6 className="title">NFTs</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -192,38 +193,39 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="tf-section-2 widget-box-icon">
-                        <div className="themesflat-container">
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <div className="heading-section-1">
-                                        <h2 className="tf-title pb-40">Why choose us</h2>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0s" className="wow fadeInUp col-md-4">
-                                    <div className="box-icon-item">
-                                        <img src="/assets/images/item-background/about-01.png" alt="" />
-                                        <div className="title"><Link href="#">HODL</Link></div>
-                                        <p>Passive income made easy! HODL to earn yields in Layer1 Bitcoin (non-custodial)
-</p>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.1s" className="wow fadeInUp col-md-4">
-                                    <div className="box-icon-item">
-                                        <img src="/assets/images/item-background/about-02.png" alt="" />
-                                        <div className="title"><Link href="#">Compound</Link></div>
-                                        <p>Watch your passive income grow exponentially, all tax-efficiently!</p>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.2s" className="wow fadeInUp col-md-4">
-                                    <div className="box-icon-item">
-                                        <img src="/assets/images/item-background/about-03.png" alt="" />
-                                        <div className="title"><Link href="#">Borrow</Link></div>
-                                        <p>Secure an instant loan at 0% interest using your ordinal. Discover the future!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div className="themesflat-container">
+        <div className="row">
+            <div className="col-md-12">
+                <div className="heading-section-1">
+                    <h2 className="tf-title pb-40">Why choose us</h2>
+                </div>
+            </div>
+            <div data-wow-delay="0s" className="wow fadeInUp col-md-4">
+                <div className="box-icon-item">
+                    <img src="/assets/images/item-background/about-01.png" alt="" />
+                    <div className="title"><Link href="#">HODL</Link></div>
+                    <p>Passive income made easy! HODL to earn yields in Layer1 Bitcoin (non-custodial)</p>
+                </div>
+            </div>
+            <div data-wow-delay="0.1s" className="wow fadeInUp col-md-4">
+                <div className="box-icon-item">
+                    <img src="/assets/images/item-background/about-02.png" alt="" />
+                    <div className="title"><Link href="#">Compound</Link></div>
+                    <p>Watch your passive income grow exponentially, all tax-efficiently!</p>
+                </div>
+            </div>
+           
+            <div data-wow-delay="0.2s" className="wow fadeInUp col-md-4">
+                <div className="box-icon-item">
+                    <img src="/assets/images/item-background/about-03.png" alt="" />
+                    <div className="title"><Link href="#">Borrow</Link></div>
+                    <p>Secure an instant loan at 0% interest using your ordinal. Discover the future!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
                     <div className="widget-our-team">
                         <div className="themesflat-container">
                             <div className="row">
@@ -236,7 +238,7 @@ export default function Home() {
                                     <div className="our-team-item pb-38 text-center">
                                         <img src="/assets/images/avatar/team-01.png" alt="" />
                                         <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
+                                        <div className="info">CEo, Director</div>
                                         <div className="widget-social">
                                             <ul className="flex justify-center">
                                                 <li><Link href="#" className="icon-facebook" /></li>
@@ -477,15 +479,15 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="widget-income">
-                                        <div className="title">Generate passive income with the platform <span className="tf-color">Blockcity</span></div>
-                                        <p>Get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
+                                        <div className="title">Ride the Bitcoin Wave by HODLing your digital assets on <br/><span className="tf-color">Blockcity</span></div>
+                                        <p>Discover the hottest trend in the world of ordinals – HODL to earn juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
                                         <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
                                            
-                                            <img className="icon-1" src="/assets/images/item-background/item4.png" alt="" />
-                                            <img className="icon-2" src="/assets/images/item-background/item3.png" alt="" />
+                                            <img className="icon-1" src="/assets/images/item-background/item2.png" alt="" />
+                                            <img className="icon-2" src="/assets/images/item-background/item11.png" alt="" />
                                             <img className="icon-3" src="/assets/images/item-background/item10.png" alt="" />
-                                            <img className="icon-4" src="/assets/images/item-background/item11.png" alt="" />
+                                            <img className="icon-4" src="/assets/images/item-background/item16.png" alt="" />
                                         </div>
                                     </div>
                                 </div>
