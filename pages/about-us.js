@@ -57,13 +57,22 @@ export default function Home() {
 
             <Layout headerStyle={1} footerStyle={1} pageCls="about-us-page">
 
+                <br>
                 
+                </br>
+                <br>
+                
+                </br>
+
+                <br>
+                
+                </br>
                     <div className="page-title about-us relative">
                         <div className="themesflat-container">
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">INVΞST SMΛRT, ΞARN PΛSSIVΞLY
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">Invest smart <br/> Earn passively 
 </h1>
                                         <p data-wow-delay="0.1s" className="wow fadeInUp">We're excited to announce our support for the upcoming Nakamoto release! You'll have the opportunity to lend your dormat Layer1 Bitcoins in a trustless way, earning yields in Layer1 Bitcoin that can potentially grow over time</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
