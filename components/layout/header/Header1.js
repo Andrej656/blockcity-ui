@@ -5,7 +5,6 @@ import { StacksMainnet } from '@stacks/network';
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
 
-
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
     const [isSidebar, setSidebar] = useState('');
     const [cardinalAddress, setCardinalAddress] = useState('');
@@ -31,9 +30,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                         const [firstAddress] = userAddresses?.result?.addresses || [];
                         setCardinalAddress(firstAddress?.address || '');
                         setOrdinalAddress(firstAddress?.address || '');
-
-                        // Show the popup overlay when the connection is successful
-                        document.getElementById('popup-overlay').classList.add('active');
                     },
                     onCancel: () => {
                         // Handle if the user closes the connection prompt
@@ -151,14 +147,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="white" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 122.878 122.88" enableBackground="new 0 0 122.878 122.88" xmlSpace="preserve"><g><path d="M1.426,8.313c-1.901-1.901-1.901-4.984,0-6.886c1.901-1.902,4.984-1.902,6.886,0l53.127,53.127l53.127-53.127 c1.901-1.902,4.984-1.902,6.887,0c1.901,1.901,1.901,4.985,0,6.886L68.324,61.439l53.128,53.128c1.901,1.901,1.901,4.984,0,6.886 c-1.902,1.902-4.985,1.902-6.887,0L61.438,68.326L8.312,121.453c-1.901,1.902-4.984,1.902-6.886,0 c-1.901-1.901-1.901-4.984,0-6.886l53.127-53.128L1.426,8.313L1.426,8.313z" /></g></svg>
                         </div>
                         <MobileMenu />
-                    </div>
-                </div>
-                {/* Add the popup overlay and content */}
-                <div id="popup-overlay" className="popup-overlay">
-                    <div className="popup-content">
-                        <h2>Connected Successfully!</h2>
-                        <p>Your custom message here.</p>
-                        <img src="/path/to/wallet-icon.png" alt="Wallet Icon" />
                     </div>
                 </div>
             </header>
