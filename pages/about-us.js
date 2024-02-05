@@ -63,8 +63,9 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">Marketplace on Bitcoin Technology</h1>
-                                        <p data-wow-delay="0.1s" className="wow fadeInUp">Get started with the easiest and most secure platform to buy and trade digital ART and NFTs on Bitcoin</p>
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">INVΞST SMΛRT, ΞARN PΛSSIVΞLY
+</h1>
+                                        <p data-wow-delay="0.1s" className="wow fadeInUp">We're excited to announce our support for the upcoming Nakamoto release! You'll have the opportunity to lend your dormat Layer1 Bitcoins in a trustless way, earning yields in Layer1 Bitcoin that can potentially grow over time</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
                                             <Link href="#" className="tf-button style-1 h50 w190">Get started <i className="icon-arrow-up-right2" /></Link>
                                         </div>
@@ -184,7 +185,7 @@ export default function Home() {
                                             <div className="number-counter">
                                                 <span className="number" data-speed={3000} data-to={128} data-inviewport="yes"><CounterUp count={128} time={1} /></span>K+
                                             </div>
-                                            <h6 className="title">NFTs Created</h6>
+                                            <h6 className="title">NFTs</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -477,8 +478,8 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="widget-income">
-                                        <div className="title">Generate passive income with the platform <span className="tf-color">Blockcity</span></div>
-                                        <p>Get started with the easiest and most secure platform to buy and trade digital ART and NFTs</p>
+                                        <div className="title">Ride the Bitcoin Wave by HODLing your digital assets on <br/><span className="tf-color">Blockcity</span></div>
+                                        <p>Discover the hottest trend in the world of ordinals – HODL to earn juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
                                         <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
                                            

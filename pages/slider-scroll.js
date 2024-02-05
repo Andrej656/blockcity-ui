@@ -48,12 +48,11 @@ export default function Home() {
                         <div className="row">
                             <div className="col-12 pages-title">
                                 <div className="content">
-                                    <h1>Join the  <br /> NFT and Ordinals  <br /> community on Bitcoin </h1>
-                                    <p>Discover the Most Premium, Unique and Exclusive
-                                        NFT Collection builded on Stacks</p>
+                                    <h1>Ordinals - The Future <br/> of Passive Income </h1>
+                                    <p>HODL to Earn Yields in Layer1 Bitcoin</p>
                                     <div className="flat-button flex">
-                                        <Link href="#" className="tf-button style-1 h50 w230 mr-10">Create your first NFT <i className="icon-arrow-up-right2" /></Link>
-                                        <Link href="#" className="tf-button style-1 h50 w190 active">Explore now <i className="icon-arrow-up-right2" /></Link>
+                                        <Link href="https://blockcityfi.substack.com/p/join-the-waitlist" className="tf-button style-1 h50 w230 mr-10">Join Waitlist <i className="icon-arrow-up-right2" /></Link>
+                                        <Link href="https://blockcityfi.substack.com/t/announcements" className="tf-button style-1 h50 w190 active">Explore now <i className="icon-arrow-up-right2" /></Link>
                                     </div>
                                 </div>
                                 <div className="icon-background">
