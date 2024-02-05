@@ -63,7 +63,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">INVΞST SMΛRT, ΞARN PΛSSIVΞLY
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">INVΞST SMΛRT <br/> ΞARN PΛSSIVΞLY
 </h1>
                                         <p data-wow-delay="0.1s" className="wow fadeInUp">We're excited to announce our support for the upcoming Nakamoto release! You'll have the opportunity to lend your dormat Layer1 Bitcoins in a trustless way, earning yields in Layer1 Bitcoin that can potentially grow over time</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
