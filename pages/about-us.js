@@ -73,7 +73,7 @@ export default function Home() {
                                     <div className="icon-background">
                                         <img className="absolute item1" src="/assets/images/item-background/item11.png" alt="" />
                                         <img className="absolute item2" src="/assets/images/item-background/item10.png" alt="" />
-                                        <img className="absolute item3" src="/assets/images/item-background/item10.png" alt="" />
+                                        <img className="absolute item3" src="/assets/images/item-background/item16.png" alt="" />
                                         <img className="absolute item4" src="/assets/images/item-background/item2.png" alt="" />
                                     </div>
                                     <div className="relative">
@@ -487,7 +487,7 @@ export default function Home() {
                                             <img className="icon-1" src="/assets/images/item-background/item2.png" alt="" />
                                             <img className="icon-2" src="/assets/images/item-background/item11.png" alt="" />
                                             <img className="icon-3" src="/assets/images/item-background/item10.png" alt="" />
-                                            <img className="icon-4" src="/assets/images/item-background/item11.png" alt="" />
+                                            <img className="icon-4" src="/assets/images/item-background/item16.png" alt="" />
                                         </div>
                                     </div>
                                 </div>
