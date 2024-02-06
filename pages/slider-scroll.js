@@ -57,13 +57,13 @@ export default function Home() {
                                 </div>
                                 <div className="icon-background">
                                     <img className="absolute item1" src="/assets/images/item-background/item10.png" alt="" />
-                                    <img className="absolute item2" src="/assets/images/item-background/item11.png" alt="" />
+                                    <img className="absolute item2" src="/assets/images/item-background/item1.png" alt="" />
                                     <img className="absolute item3" src="/assets/images/item-background/item10.png" alt="" />
                                     <img className="absolute item4" src="/assets/images/item-background/item16.png" alt="" />
                                     <img className="absolute item5" src="/assets/images/item-background/item1.png" alt="" />
-                                    <img className="absolute item6" src="/assets/images/item-background/item1.png" alt="" />
+                                    <img className="absolute item6" src="/assets/images/item-background/item5.png" alt="" />
                                     <img className="absolute item7" src="/assets/images/item-background/item11.png" alt="" />
-                                    <img className="absolute item8" src="/assets/images/item-background/item2.png" alt="" />
+                                    <img className="absolute item8" src="/assets/images/item-background/item5.png" alt="" />
                                     <img className="absolute item9" src="/assets/images/item-background/item10.png" alt="" />
                                     <img className="absolute item10" src="/assets/images/item-background/item1.png" alt="" />
                                 </div>
