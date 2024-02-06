@@ -127,7 +127,31 @@ export default function Home() {
                                                     <div className="tf-card-box style-7">
                                                         <div className="card-media">
                                                             <Link href="#">
-                                                                <img src="/assets/images/box-item/about-us-01.jpg" alt="" />
+                                                                <img src="/assets/images/box-item/about-us-03.jpg" alt="" />
+                                                            </Link>
+                                                        </div>
+                                                        <div className="button-place-bid">
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="tf-card-box style-7">
+                                                        <div className="card-media">
+                                                            <Link href="#">
+                                                                <img src="/assets/images/box-item/about-us-05.jpg" alt="" />
+                                                            </Link>
+                                                        </div>
+                                                        <div className="button-place-bid">
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="tf-card-box style-7">
+                                                        <div className="card-media">
+                                                            <Link href="#">
+                                                                <img src="/assets/images/box-item/about-us-04.jpg" alt="" />
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
