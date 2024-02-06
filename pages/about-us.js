@@ -69,7 +69,7 @@ export default function Home() {
                 </br>
                 <br>
                 </br>
-                
+
                 <br>
                 
                 </br>
@@ -288,7 +288,7 @@ export default function Home() {
                             
                             <div className="row">
                                 <div className="col-12">
-                                    <Link href="#" className="tf-button style-1 h50 w190 m-auto">Join us<i className="icon-arrow-up-right2" /></Link>
+                                    <Link href=" https://discord.com/invite/AkQ59UFxRC" className="tf-button style-1 h50 w190 m-auto">Join us<i className="icon-arrow-up-right2" /></Link>
                                 </div>
                             </div>
                         
@@ -387,7 +387,7 @@ export default function Home() {
                                     <div className="widget-income">
                                         <div className="title">Ride the Bitcoin Wave <br/> by HODLing ordinals  <br/><span className="tf-color"></span></div>
                                         <p>Discover the hottest trend in the world of ordinals – HODL to earn juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
-                                        <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
+                                        <Link href="https://blockcityfi.substack.com/p/join-the-waitlist" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
                                            
                                             <img className="icon-1" src="/assets/images/item-background/item2.png" alt="" />
