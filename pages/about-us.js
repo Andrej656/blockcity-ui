@@ -234,7 +234,7 @@ export default function Home() {
             </div>
             <div data-wow-delay="0s" className="wow fadeInUp col-md-4">
                 <div className="box-icon-item">
-                    <img src="/assets/images/item-background/about-01.png" alt="" />
+                    <img src="/assets/images/item-background/about-05.png" alt="" />
                     <div className="title"><Link href="#">HODL</Link></div>
                     <p>Passive income made easy! HODL to earn yields in Layer1 Bitcoin (non-custodial)</p>
                 </div>
@@ -248,7 +248,7 @@ export default function Home() {
             </div>
             <div data-wow-delay="0.1s" className="wow fadeInUp col-md-4">
                 <div className="box-icon-item">
-                    <img src="/assets/images/item-background/about-05.png" alt="" />
+                    <img src="/assets/images/item-background/about-01.png" alt="" />
                     <div className="title"><Link href="#">Lend</Link></div>
                     <p>Lend your dormant Layer1 Bitcoin in our lending pool and earn yields.</p>
                 </div>
@@ -531,7 +531,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="widget-income">
-                                        <div className="title">Ride the Bitcoin Wave by HODLing your digital assets on <br/><span className="tf-color"></span></div>
+                                        <div className="title">Ride the Bitcoin Wave <br/> by HODLing ordinals on <br/><span className="tf-color"></span></div>
                                         <p>Discover the hottest trend in the world of ordinals – HODL to earn juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
                                         <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
