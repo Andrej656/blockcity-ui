@@ -7,7 +7,7 @@ import { useEffect, useState } from "react"
 import AddClassBody from "@/components/elements/AddClassBody"
 import "/public/assets/css/style.css"
 import "/public/assets/css/responsive.css"
-
+import "/public/assets/css/popupstyle.css"
 function MyApp({ Component, pageProps }) {
 
     const [loading, setLoading] = useState(true)
