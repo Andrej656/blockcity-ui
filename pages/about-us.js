@@ -67,6 +67,12 @@ export default function Home() {
                 <br>
                 
                 </br>
+                <br>
+                </br>
+                
+                <br>
+                
+                </br>
                     <div className="page-title about-us relative">
                         <div className="themesflat-container">
                             <div className="row">
@@ -278,167 +284,15 @@ export default function Home() {
     </div>
 </div>
 
-                    <div className="widget-our-team">
-                        <div className="themesflat-container">
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <div className="heading-section-1">
-                                        <h2 className="tf-title pb-40">Meet Our Amazing Team</h2>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-38 text-center">
-                                        <img src="/assets/images/avatar/team-01.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEo, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.1s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-38 text-center">
-                                        <img src="/assets/images/avatar/team-02.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.2s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-38 text-center">
-                                        <img src="/assets/images/avatar/team-03.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.3s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-38 text-center">
-                                        <img src="/assets/images/avatar/team-04.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.4s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-38 text-center">
-                                        <img src="/assets/images/avatar/team-05.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.5s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-38 text-center">
-                                        <img src="/assets/images/avatar/team-06.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row justify-center">
-                                <div data-wow-delay="0s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-40 text-center">
-                                        <img src="/assets/images/avatar/team-07.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.1s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-40 text-center">
-                                        <img src="/assets/images/avatar/team-08.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.2s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-40 text-center">
-                                        <img src="/assets/images/avatar/team-09.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.3s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-40 text-center">
-                                        <img src="/assets/images/avatar/team-10.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-wow-delay="0.4s" className="wow fadeInUp col-md-2 col-6">
-                                    <div className="our-team-item pb-40 text-center">
-                                        <img src="/assets/images/avatar/team-11.png" alt="" />
-                                        <div className="name"><Link href="#">Marvin McKinney</Link></div>
-                                        <div className="info">CEO, Director</div>
-                                        <div className="widget-social">
-                                            <ul className="flex justify-center">
-                                                <li><Link href="#" className="icon-facebook" /></li>
-                                                <li><Link href="#" className="icon-twitter" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    
+                            
                             <div className="row">
                                 <div className="col-12">
                                     <Link href="#" className="tf-button style-1 h50 w190 m-auto">Join us<i className="icon-arrow-up-right2" /></Link>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        
+                   
                     <div className="tf-section-2 wrap-accordion pt-80">
                         <div className="themesflat-container">
                             <div className="row">
