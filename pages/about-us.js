@@ -127,7 +127,31 @@ export default function Home() {
                                                     <div className="tf-card-box style-7">
                                                         <div className="card-media">
                                                             <Link href="#">
-                                                                <img src="/assets/images/box-item/about-us-01.jpg" alt="" />
+                                                                <img src="/assets/images/box-item/about-us-03.jpg" alt="" />
+                                                            </Link>
+                                                        </div>
+                                                        <div className="button-place-bid">
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="tf-card-box style-7">
+                                                        <div className="card-media">
+                                                            <Link href="#">
+                                                                <img src="/assets/images/box-item/about-us-05.jpg" alt="" />
+                                                            </Link>
+                                                        </div>
+                                                        <div className="button-place-bid">
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className="tf-card-box style-7">
+                                                        <div className="card-media">
+                                                            <Link href="#">
+                                                                <img src="/assets/images/box-item/about-us-04.jpg" alt="" />
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
@@ -507,7 +531,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="widget-income">
-                                        <div className="title">Ride the Bitcoin Wave by HODLing your digital assets on <br/><span className="tf-color">Blockcity</span></div>
+                                        <div className="title">Ride the Bitcoin Wave by HODLing your digital assets on <br/><span className="tf-color"></span></div>
                                         <p>Discover the hottest trend in the world of ordinals – HODL to earn juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
                                         <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">

@@ -112,27 +112,26 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                 <h5 className="title-widget">Categories</h5>
                                 <ul>
                                     <li>
-                                        <div className="cate-item"><Link href="#">NFTs</Link></div>
+                                        <div className="cate-item"><Link href="https://blockcityfi.substack.com/t/announcements">NFTs</Link></div>
                                         <div className="number">(1.483)</div>
                                     </li>
                                     <li>
-                                        <div className="cate-item"><Link href="#">Digital Art</Link></div>
+                                        <div className="cate-item"><Link href="https://blockcityfi.substack.com/p/introduction">Digital Art</Link></div>
                                         <div className="number">(97)</div>
                                     </li>
-                                    {/* ... (rest of your code for categories) */}
-                                </ul>
-                            </div>
-                            <div className="widget widget-menu style-4">
-                                <h5 className="title-widget">Company</h5>
-                                <ul>
-                                    <li><Link href="#">Help center</Link></li>
-                                    <li><Link href="#">Platform status</Link></li>
-                                    {/* ... (rest of your code for company menu) */}
+                                    <li>
+                                        <div className="cate-item"><Link href=" https://blockcityfi.substack.com/p/join-the-waitlist">Waitlist</Link></div>
+                                        <div className="number">(97)</div>
+                                    </li>
+                                 
                                 </ul>
                             </div>
                             <div className="widget">
                                 <h5 className="title-widget">Join the community</h5>
-                                {/* ... (rest of your code for social links) */}
+                                <li>
+                                        <div className="cate-item"><Link href="https://discord.com/invite/AkQ59UFxRC">Discord</Link></div>
+                                        <div className="number"></div>
+                                    </li> 
                             </div>
                         </div>
                     </div>
