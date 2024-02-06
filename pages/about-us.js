@@ -531,7 +531,7 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="widget-income">
-                                        <div className="title">Ride the Bitcoin Wave by HODLing your digital assets on <br/><span className="tf-color">Blockcity</span></div>
+                                        <div className="title">Ride the Bitcoin Wave by HODLing your digital assets on <br/><span className="tf-color"></span></div>
                                         <p>Discover the hottest trend in the world of ordinals – HODL to earn juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
                                         <Link href="#" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
