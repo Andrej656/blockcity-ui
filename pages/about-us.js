@@ -175,7 +175,7 @@ export default function Home() {
                                             <div className="number-counter">
                                                 <span className="number" data-speed={3000} data-to={99} data-inviewport="yes"><CounterUp count={99} time={1} /></span>K+
                                             </div>
-                                            <h6 className="title">Artwork</h6>
+                                            <h6 className="title">Assets</h6>
                                         </div>
                                         <div className="space">
                                             <svg width={80} height={19} viewBox="0 0 80 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -189,7 +189,7 @@ export default function Home() {
                                             <div className="number-counter">
                                                 <span className="number" data-speed={3000} data-to={72} data-inviewport="yes"><CounterUp count={72} time={1} /></span>K+
                                             </div>
-                                            <h6 className="title">Auction</h6>
+                                            <h6 className="title">Collector</h6>
                                         </div>
                                         <div className="space">
                                             <svg width={80} height={19} viewBox="0 0 80 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -203,7 +203,7 @@ export default function Home() {
                                             <div className="number-counter">
                                                 <span className="number" data-speed={3000} data-to={35} data-inviewport="yes"><CounterUp count={35} time={1} /></span>K+
                                             </div>
-                                            <h6 className="title">Artist</h6>
+                                            <h6 className="title">Creator</h6>
                                         </div>
                                         <div className="space">
                                             <svg width={80} height={19} viewBox="0 0 80 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -217,7 +217,7 @@ export default function Home() {
                                             <div className="number-counter">
                                                 <span className="number" data-speed={3000} data-to={128} data-inviewport="yes"><CounterUp count={128} time={1} /></span>K+
                                             </div>
-                                            <h6 className="title">NFTs</h6>
+                                            <h6 className="title">Rewards</h6>
                                         </div>
                                     </div>
                                 </div>
