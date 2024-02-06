@@ -63,7 +63,7 @@ export default function Home() {
                                     <img className="absolute item5" src="/assets/images/item-background/item10.png" alt="" />
                                     <img className="absolute item6" src="/assets/images/item-background/item1.png" alt="" />
                                     <img className="absolute item7" src="/assets/images/item-background/item11.png" alt="" />
-                                    <img className="absolute item8" src="/assets/images/item-background/item2.png" alt="" />
+                                    <img className="absolute item8" src="/assets/images/item-background/item1.png" alt="" />
                                     <img className="absolute item9" src="/assets/images/item-background/item1.png" alt="" />
                                     <img className="absolute item10" src="/assets/images/item-background/item10.png" alt="" />
                                 </div>
