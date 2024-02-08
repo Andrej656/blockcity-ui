@@ -19,11 +19,10 @@ export default function Footer1() {
                                     <h5 className="title-widget mt-30">Join the community</h5>
                                     <div className="widget-social">
                                         <ul className="flex">
-                                            <li><Link href="#" className="icon-facebook" /></li>
-                                            <li><Link href="#" className="icon-twitter" /></li>
-                                            <li><Link href="#" className="icon-vt" /></li>
-                                            <li><Link href="#" className="icon-tiktok" /></li>
-                                            <li><Link href="#" className="icon-youtube" /></li>
+                                            <li><Link href="https://www.facebook.com/groups/blockcityfi" className="icon-facebook" /></li>
+                                            <li><Link href="https://twitter.com/BlockCityFi" className="icon-twitter" /></li>
+                                            <li><Link href="https://discord.com/invite/AkQ59UFxRC" className="icon-vt" /></li>
+                                            <li><Link href="https://blockcityfi.substack.com/" className="icon-youtube" /></li>
                                         </ul>
                                     </div>
                                 </div>
