@@ -1,4 +1,3 @@
-// next.config.js
 const nextConfig = {
   reactStrictMode: true,
   async redirects() {
@@ -19,9 +18,9 @@ const nextConfig = {
   // Set slider-scroll.js as the landing page
   exportPathMap: async function () {
     return {
-      '/': { page: '/slider-scroll' },
+      '/': { page: '/slider-scroll' }, // Set slider-scroll.js as the landing page
     };
   },
-}
+};
 
 module.exports = nextConfig;
