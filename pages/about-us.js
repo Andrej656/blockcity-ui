@@ -392,7 +392,7 @@ export default function Home() {
                                            
                                             <img className="icon-1" src="/assets/images/item-background/item2.png" alt="" />
                                             <img className="icon-2" src="/assets/images/item-background/item11.png" alt="" />
-                                            <img className="icon-3" src="/assets/images/item-background/item10.png" alt="" />
+                                            <img className="icon-3" src="/assets/images/item-background/item18.png" alt="" />
                                             <img className="icon-4" src="/assets/images/item-background/item16.png" alt="" />
                                         </div>
                                     </div>
