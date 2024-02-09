@@ -19,7 +19,7 @@ const nextConfig = {
   // Set slider-scroll.js as the landing page
   exportPathMap: async function () {
     return {
-      '/': { page: '/slider-scroll' },
+      '': { page: '/slider-scroll' },
     };
   },
 }

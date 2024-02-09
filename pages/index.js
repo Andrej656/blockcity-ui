@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} pageCls="home-1">
+      <Layout headerStyle={1} footerStyle={1} pageCls="slider-sroll">
         <FlatTitle1 />
         <FeaturedItem1 />
         <Seller1 />

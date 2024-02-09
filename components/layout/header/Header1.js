@@ -112,11 +112,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                 <h5 className="title-widget">Categories</h5>
                                 <ul>
                                     <li>
-                                        <div className="cate-item"><Link href="https://blockcityfi.substack.com/t/announcements">NFTs</Link></div>
+                                        <div className="cate-item"><Link href="https://blockcityfi.substack.com/t/announcements">Announcments</Link></div>
                                         <div className="number">(1.483)</div>
                                     </li>
                                     <li>
-                                        <div className="cate-item"><Link href="https://blockcityfi.substack.com/p/introduction">Digital Art</Link></div>
+                                        <div className="cate-item"><Link href="https://blockcityfi.substack.com/p/introduction">Introduction</Link></div>
                                         <div className="number">(97)</div>
                                     </li>
                                     <li>
