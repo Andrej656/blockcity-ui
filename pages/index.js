@@ -1,13 +1,6 @@
 import { useEffect, useState } from 'react';
 import Layout from "@/components/layout/Layout";
-import FlatTitle1 from "@/components/sections/FlatTitle1";
-import FeaturedItem1 from "@/components/sections/FeaturedItem1";
-import Seller1 from "@/components/sections/Seller1";
-import DiscoverItem1 from "@/components/sections/DiscoverItem1";
-import TopCollector1 from "@/components/sections/TopCollector1";
-import TopCollections1 from "@/components/sections/TopCollections1";
-import CreateSell1 from "@/components/sections/CreateSell1";
-import Action1 from "@/components/sections/Action1";
+
 
 export default function Home() {
   const principalAddress = 'ST000000000000000000002AMW42H';
