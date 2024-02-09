@@ -58,7 +58,7 @@ export default function Home() {
                                 <div className="icon-background">
                                     <img className="absolute item1" src="/assets/images/item-background/item1.png" alt="" />
                                     <img className="absolute item2" src="/assets/images/item-background/item1.png" alt="" />
-                                    <img className="absolute item3" src="/assets/images/item-background/item11.png" alt="" />
+                                    <img className="absolute item3" src="/assets/images/item-background/item1.png" alt="" />
                                     <img className="absolute item4" src="/assets/images/item-background/item18.png" alt="" />
                                     <img className="absolute item5" src="/assets/images/item-background/item1.png" alt="" />
                                     <img className="absolute item6" src="/assets/images/item-background/item5.png" alt="" />
