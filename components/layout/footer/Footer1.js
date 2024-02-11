@@ -22,7 +22,7 @@ export default function Footer1() {
                                             <li><Link href="https://www.facebook.com/groups/blockcityfi" className="icon-facebook" /></li>
                                             <li><Link href="https://twitter.com/BlockCityFi" className="icon-twitter" /></li>
                                             <li><Link href="https://discord.com/invite/AkQ59UFxRC" className="icon-vt" /></li>
-                                         
+                 
                                         </ul>
                                     </div>
                                 </div>
