@@ -43,18 +43,6 @@ export default function Home() {
       <Layout headerStyle={1} footerStyle={1} pageCls="slider-sroll">
      
 
-        {/* Render NFT Holdings */}
-        <section>
-          <h2>NFT Holdings</h2>
-          <ul>
-            {nftHoldings.map((holding, index) => (
-              <li key={index}>
-                {/* Render NFT holding details as needed */}
-                {JSON.stringify(holding)}
-              </li>
-            ))}
-          </ul>
-        </section>
       </Layout>
     </>
   );
