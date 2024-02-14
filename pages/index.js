@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Layout from "@/components/layout/Layout";
 import SliderScroll from "../pages/slider-scroll";
+import Header1 from '@/components/layout/header/Header1';
 
 export default function Home() {
   return (
