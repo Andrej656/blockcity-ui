@@ -4963,7 +4963,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .alert-success {
-  background-color: #d5546ffd8;
+  background-color: #d554fd;
   border-color: #d0e9c6;
   color: #3c763d;
 }
@@ -5212,7 +5212,7 @@ a.badge:focus, a.badge:hover {
 
 .list-group-item-success {
   color: #3c763d;
-  background-color: #d5546ffd8;
+  background-color: #d5546f;
 }
 
 a.list-group-item-success,

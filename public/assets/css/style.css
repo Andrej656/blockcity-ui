@@ -770,6 +770,7 @@ input[type="submit"]:focus {
     border: none;
     background-color: rgba(22, 22, 22, 1);
     color: #5546ff;
+;
 }
 
 button.style-1:hover,
@@ -1274,7 +1275,7 @@ a:focus {
 #main-nav .sub-menu li a {
     display    : block;
     font-size  : 16px;
-    color      : #fff;
+    color      : #5c2cd6;
     padding    : 12px 36px;
     font-weight: 500;
 }

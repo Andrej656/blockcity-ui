@@ -75,7 +75,7 @@ export default function FeaturedSlider6() {
                                 <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ export default function FeaturedSlider6() {
                                 <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ export default function FeaturedSlider6() {
                                 <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                             </div>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ export default function FeaturedSlider6() {
                                 <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ export default function FeaturedSlider6() {
                                 <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                             </div>
                         </div>
                     </div>
@@ -240,7 +240,7 @@ export default function FeaturedSlider6() {
                                 <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                             </div>
                         </div>
                     </div>

@@ -101,7 +101,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -113,7 +113,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -125,7 +125,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -137,7 +137,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -149,7 +149,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -161,7 +161,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>

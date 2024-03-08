@@ -13,7 +13,6 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -97,7 +96,7 @@
 }
 .icon-tick .path1:before {
   content: "\e91a";
-  color: rgb(221, 242, 71);
+  color: rgb(71, 128, 242);
 }
 .icon-tick .path2:before {
   content: "\e91b";
@@ -144,7 +143,7 @@
 }
 .icon-sign-out-1:before {
   content: "\e900";
-  color: #fff;
+  color: #2415eb;
 }
 .icon-headphones:before {
   content: "\e901";
@@ -197,7 +196,7 @@
 }
 .icon-file:before {
   content: "\e90c";
-  color: #ddf247;
+  color: #5b47f2;
 }
 .icon-time:before {
   content: "\e90d";
