@@ -79,7 +79,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -99,7 +99,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -119,7 +119,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -139,7 +139,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -159,7 +159,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -179,7 +179,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -199,7 +199,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -219,7 +219,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -239,7 +239,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -259,7 +259,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -279,7 +279,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -299,7 +299,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -319,7 +319,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">
@@ -339,7 +339,7 @@ export default function TitileSlider1() {
                                 {timerx}
                             </div>
                             <div className="button-place-bid">
-                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                             </div>
                         </div>
                         <div className="meta-info text-center">

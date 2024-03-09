@@ -110,35 +110,35 @@ export default function Settings() {
                             <div className="notification-setting-item">
                                 <div className="content">
                                     <h6>Order confirmation</h6>
-                                    <p>will be notified when customer order any product</p>
+                                    <p>User will be notified when customer order any product</p>
                                 </div>
                                 <input className="check" type="checkbox" defaultValue="checkbox" name="check" defaultChecked />
                             </div>
                             <div className="notification-setting-item">
                                 <div className="content">
-                                    <h6>New Items Notification</h6>
-                                    <p>Mauris a velit commodo erat lobortis eleifend</p>
+                                    <h6>POX cycle starts</h6>
+                                    <p>Notification and email for notify that POX cycle started</p>
                                 </div>
                                 <input className="check" type="checkbox" defaultValue="checkbox" name="check" />
                             </div>
                             <div className="notification-setting-item">
                                 <div className="content">
-                                    <h6>Payment Card Notification</h6>
-                                    <p>Proin rutrum nulla non</p>
+                                    <h6>Payment sucsesfull</h6>
+                                    <p>Notification for sucsesfull payment</p>
                                 </div>
                                 <input className="check" type="checkbox" defaultValue="checkbox" name="check" defaultChecked />
                             </div>
                             <div className="notification-setting-item">
                                 <div className="content">
                                     <h6>Notification for approving product</h6>
-                                    <p>Nam in mi ac felis venenatis ultrices</p>
+                                    <p>Prdouct apporved and listed on market</p>
                                 </div>
                                 <input className="check" type="checkbox" defaultValue="checkbox" name="check" />
                             </div>
                             <div className="notification-setting-item">
                                 <div className="content">
                                     <h6>Email notification</h6>
-                                    <p>Turn on email notification to get updates through email</p>
+                                    <p>POX cycle starts and ending and distribution of rewards</p>
                                 </div>
                                 <input className="check" type="checkbox" defaultValue="checkbox" name="check" />
                             </div>

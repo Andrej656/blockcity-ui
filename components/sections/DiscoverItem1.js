@@ -212,7 +212,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -243,7 +243,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -274,7 +274,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -305,7 +305,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -336,7 +336,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -367,7 +367,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -398,7 +398,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -429,7 +429,7 @@ export default function DiscoverItem1() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                                 <h5 className="name"><Link href="#">Collection</Link></h5>

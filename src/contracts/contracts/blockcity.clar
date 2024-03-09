@@ -66,7 +66,7 @@
   { is-listed: bool }
 )
 
-(define-data-var earnings uint u0)
+(define-data-var Earn 99$  per monthings uint u0)
 
 (define-public (mint-nft (nft-asset-contract <nft-trait>) (token-id uint))
   (try! (transfer-nft nft-asset-contract token-id (as-contract tx-sender) tx-sender))
@@ -80,8 +80,8 @@
   )
 )
 
-(define-public (earnings-balance)
-  (ok (get earnings u0))
+(define-public (Earn 99$  per monthings-balance)
+  (ok (get Earn 99$  per monthings u0))
 )
 
 (define-public (list-asset (nft-asset-contract <nft-trait>) (nft-asset {taker: (optional principal), token-id: uint, expiry: uint, price: uint, payment-asset-contract: (optional principal)}))

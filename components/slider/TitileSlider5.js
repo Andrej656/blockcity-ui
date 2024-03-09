@@ -42,7 +42,7 @@ export default function TitileSlider5() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="featured-countdown">
                             <span className="js-countdown" data-timer={7500} data-labels="d,h,m,s"><div aria-hidden="true" className="countdown__timer"><span className="countdown__item" style={{ display: 'none' }}><span className="countdown__value countdown__value--0 js-countdown__value--0">0</span><span className="countdown__label">d</span></span><span className="countdown__item"><span className="countdown__value countdown__value--1 js-countdown__value--1">02</span><span className="countdown__label">h</span></span><span className="countdown__item"><span className="countdown__value countdown__value--2 js-countdown__value--2">04</span><span className="countdown__label">m</span></span><span className="countdown__item"><span className="countdown__value countdown__value--3 js-countdown__value--3">28</span><span className="countdown__label">s</span></span></div></span>
@@ -58,7 +58,7 @@ export default function TitileSlider5() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="featured-countdown">
                             <span className="js-countdown" data-timer={7500} data-labels="d,h,m,s"><div aria-hidden="true" className="countdown__timer"><span className="countdown__item" style={{ display: 'none' }}><span className="countdown__value countdown__value--0 js-countdown__value--0">0</span><span className="countdown__label">d</span></span><span className="countdown__item"><span className="countdown__value countdown__value--1 js-countdown__value--1">02</span><span className="countdown__label">h</span></span><span className="countdown__item"><span className="countdown__value countdown__value--2 js-countdown__value--2">04</span><span className="countdown__label">m</span></span><span className="countdown__item"><span className="countdown__value countdown__value--3 js-countdown__value--3">28</span><span className="countdown__label">s</span></span></div></span>
@@ -74,7 +74,7 @@ export default function TitileSlider5() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="featured-countdown">
                             <span className="js-countdown" data-timer={7500} data-labels="d,h,m,s"><div aria-hidden="true" className="countdown__timer"><span className="countdown__item" style={{ display: 'none' }}><span className="countdown__value countdown__value--0 js-countdown__value--0">0</span><span className="countdown__label">d</span></span><span className="countdown__item"><span className="countdown__value countdown__value--1 js-countdown__value--1">02</span><span className="countdown__label">h</span></span><span className="countdown__item"><span className="countdown__value countdown__value--2 js-countdown__value--2">04</span><span className="countdown__label">m</span></span><span className="countdown__item"><span className="countdown__value countdown__value--3 js-countdown__value--3">28</span><span className="countdown__label">s</span></span></div></span>
@@ -90,7 +90,7 @@ export default function TitileSlider5() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="featured-countdown">
                             <span className="js-countdown" data-timer={7500} data-labels="d,h,m,s"><div aria-hidden="true" className="countdown__timer"><span className="countdown__item" style={{ display: 'none' }}><span className="countdown__value countdown__value--0 js-countdown__value--0">0</span><span className="countdown__label">d</span></span><span className="countdown__item"><span className="countdown__value countdown__value--1 js-countdown__value--1">02</span><span className="countdown__label">h</span></span><span className="countdown__item"><span className="countdown__value countdown__value--2 js-countdown__value--2">04</span><span className="countdown__label">m</span></span><span className="countdown__item"><span className="countdown__value countdown__value--3 js-countdown__value--3">28</span><span className="countdown__label">s</span></span></div></span>
@@ -106,7 +106,7 @@ export default function TitileSlider5() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="featured-countdown">
                             <span className="js-countdown" data-timer={7500} data-labels="d,h,m,s"><div aria-hidden="true" className="countdown__timer"><span className="countdown__item" style={{ display: 'none' }}><span className="countdown__value countdown__value--0 js-countdown__value--0">0</span><span className="countdown__label">d</span></span><span className="countdown__item"><span className="countdown__value countdown__value--1 js-countdown__value--1">02</span><span className="countdown__label">h</span></span><span className="countdown__item"><span className="countdown__value countdown__value--2 js-countdown__value--2">04</span><span className="countdown__label">m</span></span><span className="countdown__item"><span className="countdown__value countdown__value--3 js-countdown__value--3">28</span><span className="countdown__label">s</span></span></div></span>
@@ -122,7 +122,7 @@ export default function TitileSlider5() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="featured-countdown">
                             <span className="js-countdown" data-timer={7500} data-labels="d,h,m,s"><div aria-hidden="true" className="countdown__timer"><span className="countdown__item" style={{ display: 'none' }}><span className="countdown__value countdown__value--0 js-countdown__value--0">0</span><span className="countdown__label">d</span></span><span className="countdown__item"><span className="countdown__value countdown__value--1 js-countdown__value--1">02</span><span className="countdown__label">h</span></span><span className="countdown__item"><span className="countdown__value countdown__value--2 js-countdown__value--2">04</span><span className="countdown__label">m</span></span><span className="countdown__item"><span className="countdown__value countdown__value--3 js-countdown__value--3">28</span><span className="countdown__label">s</span></span></div></span>

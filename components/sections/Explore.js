@@ -22,7 +22,7 @@ export default function Explore() {
                         <div className="tf-tsparticles">
                             <div id="tsparticles3" data-color="#161616" data-line="#000" />
                         </div>
-                        <h2>Discover, create and sell your own NFT</h2>
+                        <h2>Discover, create and sell your digital assests on Bitcoin</h2>
                         <div className="flat-button flex">
                             <Link href="#" className="tf-button style-2 h50 w190 mr-10">Explore now<i className="icon-arrow-up-right2" /></Link>
                             <Link href="#" className="tf-button style-2 h50 w230">Create your first NFT<i className="icon-arrow-up-right2" /></Link>
@@ -130,7 +130,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -159,7 +159,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -188,7 +188,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -217,7 +217,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -246,7 +246,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -275,7 +275,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -304,7 +304,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -333,7 +333,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -362,7 +362,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -391,7 +391,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -420,7 +420,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -449,7 +449,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -478,7 +478,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -507,7 +507,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -536,7 +536,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -565,7 +565,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -598,7 +598,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -627,7 +627,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -656,7 +656,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -685,7 +685,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -714,7 +714,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -743,7 +743,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -772,7 +772,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -801,7 +801,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -830,7 +830,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -859,7 +859,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -888,7 +888,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -917,7 +917,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -946,7 +946,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -975,7 +975,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1004,7 +1004,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1033,7 +1033,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1066,7 +1066,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1095,7 +1095,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1124,7 +1124,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1153,7 +1153,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1182,7 +1182,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1211,7 +1211,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1240,7 +1240,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1269,7 +1269,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1298,7 +1298,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1327,7 +1327,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1356,7 +1356,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1385,7 +1385,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1414,7 +1414,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1443,7 +1443,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1472,7 +1472,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1501,7 +1501,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1534,7 +1534,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1563,7 +1563,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1592,7 +1592,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1621,7 +1621,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1650,7 +1650,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1679,7 +1679,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1708,7 +1708,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1737,7 +1737,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1766,7 +1766,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1795,7 +1795,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1824,7 +1824,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1853,7 +1853,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1882,7 +1882,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1911,7 +1911,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1940,7 +1940,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1969,7 +1969,7 @@ export default function Explore() {
                                                     <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                 </div>
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                         </div>

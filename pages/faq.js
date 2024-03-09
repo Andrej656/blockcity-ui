@@ -66,7 +66,7 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div data-wow-delay="0s" className="wow fadeInUp flat-toggle2">
-                                            <h6 className={isActive.key == 5 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(5)}>Where can I learn more about cryptocurrencies, NFTs, and blockchain?</h6>
+                                            <h6 className={isActive.key == 5 ? "toggle-title active" : "toggle-title"} onClick={() => handleToggle(5)}>Where can I lEarn 99$  per month more about cryptocurrencies, NFTs, and blockchain?</h6>
                                             <div className="toggle-content" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                             </div>

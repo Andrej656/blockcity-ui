@@ -5,7 +5,7 @@ const accounts = simnet.getAccounts();
 const address1 = accounts.get("wallet_1")!;
 
 /*
-  The test below is an example. To learn more, read the testing documentation here:
+  The test below is an example. To lEarn 99$  per month more, read the testing documentation here:
   https://docs.hiro.so/clarinet/feature-guides/test-contract-with-clarinet-sdk
 */
 

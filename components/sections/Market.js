@@ -58,7 +58,7 @@ export default function Market() {
                         <div className="tf-tsparticles">
                             <div id="tsparticles1" data-color="#161616" data-line="#000" />
                         </div>
-                        <h2>Discover, create and sell your own digital asset on Stacks</h2>
+                        <h2>We support most of token standards on Bitcoin and Stacks</h2>
                         <div className="flat-button flex">
                             <Link href="#" className="tf-button style-2 h50 w190 mr-10">Explore now<i className="icon-arrow-up-right2" /></Link>
                             <Link href="#" className="tf-button style-2 h50 w230">Create your first asset<i className="icon-arrow-up-right2" /></Link>
@@ -168,7 +168,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -197,7 +197,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -226,7 +226,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -255,7 +255,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -284,7 +284,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -313,7 +313,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -353,7 +353,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -382,7 +382,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -411,7 +411,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -440,7 +440,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -469,7 +469,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -498,7 +498,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -538,7 +538,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -567,7 +567,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -596,7 +596,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -625,7 +625,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -654,7 +654,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -683,7 +683,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -723,7 +723,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -752,7 +752,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -781,7 +781,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -810,7 +810,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -839,7 +839,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -868,7 +868,7 @@ export default function Market() {
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -963,7 +963,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -991,7 +991,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1019,7 +1019,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1047,7 +1047,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1075,7 +1075,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1103,7 +1103,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1131,7 +1131,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1159,7 +1159,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1191,7 +1191,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1219,7 +1219,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1247,7 +1247,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1275,7 +1275,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1303,7 +1303,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1331,7 +1331,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1359,7 +1359,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1387,7 +1387,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1419,7 +1419,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1447,7 +1447,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1475,7 +1475,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1503,7 +1503,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1531,7 +1531,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1559,7 +1559,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1587,7 +1587,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1615,7 +1615,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1647,7 +1647,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1675,7 +1675,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1703,7 +1703,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1731,7 +1731,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1759,7 +1759,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1787,7 +1787,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1815,7 +1815,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
@@ -1843,7 +1843,7 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
                                             <h5 className="name"><Link href="#">Collection</Link></h5>
