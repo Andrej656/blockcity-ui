@@ -99,7 +99,7 @@ export default function Home() {
 
                                 <div className="popup-user relative">
                                     <div className="user" onClick={handleToggle}>
-                                        <img src="assets/images/avatar/avatar-small-09.png" alt="" />
+                                        <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                         <span>Blockcity<i className="icon-keyboard_arrow_down" /></span>
                                     </div>
                                     <div className={`avatar_popup2 ${isToggled ? "visible" : ""}`}>
@@ -131,17 +131,19 @@ export default function Home() {
                             <span />
                         </div>
                     </div>
-                    <div className="flat-tabs">
-                        <div className={`section-menu-left ${isMobileSidebar ? "null" : ""}`}>
-                            <div className="box-logo">
-                                <Link href=""><img src="assets/images/logo/logo.png" alt="" /></Link>
-                            </div>
-                            <div className="create menu-tab">
-                                <a className="tf-button style-1 type-1 tablinks" data-tabs="create" onClick={() => handleOnClick(9)}>
-                                    <span>Swap</span>
-                                    <i className="icon-create" />
-                                </a>
-                            </div>
+                   <div className="flat-tabs">
+  <div className={`section-menu-left ${isMobileSidebar ? "null" : ""}`}>
+    <div className="box-logo">
+      {/* Assuming you want to keep the logo redirection as it was, otherwise update the href */}
+      <Link href=""><img src="assets/images/logo/logo.png" alt="" /></Link>
+    </div>
+    <div className="create menu-tab">
+      {/* Updated onClick handler to redirect to the provided URL */}
+      <a className="tf-button style-1 type-1 tablinks" data-tabs="create" onClick={() => window.location.href='https://app.alexlab.co/swap'}>
+        <span>Swap</span>
+        <i className="icon-create" />
+      </a>
+    </div>
                             <div className="over-content">
                                 <div className="content">
                                     <h6>Marketplace</h6>

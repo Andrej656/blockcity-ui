@@ -36,7 +36,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-01.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order tf-color">#1</div>
@@ -48,7 +48,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-02.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order tf-color">#2</div>
@@ -60,7 +60,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-03.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order tf-color">#3</div>
@@ -72,7 +72,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-04.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order">#4</div>
@@ -84,7 +84,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-05.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order">#5</div>
@@ -96,7 +96,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-06.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order">#6</div>
@@ -108,7 +108,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-01.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order">#7</div>
@@ -120,7 +120,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-03.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order">#8</div>
@@ -132,7 +132,7 @@ export default function Seller5() {
                                     <img src="/assets/images/avatar/avatar-02.png" alt="" className="avatar" />
                                 </div>
                                 <div className="author-infor ">
-                                    <h5><Link href="/author-2">Marvin McKinney</Link></h5>
+                                    <h5><Link href="/author-2">Blockcity</Link></h5>
                                     <h6 className="price gem style-1"><i className="icon-gem" />7,080.95</h6>
                                 </div>
                                 <div className="order">#9</div>

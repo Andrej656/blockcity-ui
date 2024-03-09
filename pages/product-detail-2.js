@@ -65,7 +65,7 @@ export default function Home() {
                                             </div>
                                             <div className="info">
                                                 <span>Owned by:</span>
-                                                <h6><Link href="/author01">Marvin McKinney</Link> </h6>
+                                                <h6><Link href="/author01">Blockcity</Link> </h6>
                                             </div>
                                         </div>
                                         <div className="meta mb-20">

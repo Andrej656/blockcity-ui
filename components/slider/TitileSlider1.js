@@ -83,7 +83,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -163,7 +163,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -183,7 +183,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -203,7 +203,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -223,7 +223,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -263,7 +263,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -283,7 +283,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -303,7 +303,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -323,7 +323,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>
@@ -343,7 +343,7 @@ export default function TitileSlider1() {
                             </div>
                         </div>
                         <div className="meta-info text-center">
-                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                            <h5 className="name"><Link href="#">Collection</Link></h5>
                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                         </div>
                     </div>

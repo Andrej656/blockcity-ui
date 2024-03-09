@@ -108,7 +108,7 @@ export default function TitileSlider2() {
                         </div>
                         <div className="author flex items-center justify-between">
                             <div className="avatar">
-                                <img src="/assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                             </div>
                             <div className="info">
                                 <span>Posted by:</span>
@@ -133,7 +133,7 @@ export default function TitileSlider2() {
                         </div>
                         <div className="author flex items-center justify-between">
                             <div className="avatar">
-                                <img src="/assets/images/avatar/avatar-box-04.jpg" alt="Image" />
+                                <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                             </div>
                             <div className="info">
                                 <span>Posted by:</span>
@@ -158,7 +158,7 @@ export default function TitileSlider2() {
                         </div>
                         <div className="author flex items-center justify-between">
                             <div className="avatar">
-                                <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                             </div>
                             <div className="info">
                                 <span>Posted by:</span>
