@@ -27,15 +27,21 @@ export default function AutoSlider2() {
             </Swiper> */}
 
 
-            <Swiper {...swiperOptions} className="swiper-container autoslider4reverse swiper-container-vertical">
-                <SwiperSlide>
-                    <img src="/assets/images/item-background/bg-action-1.png" alt="" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="/assets/images/item-background/bg-action-1.png" alt="" />
-                </SwiperSlide>
-            </Swiper>
+                <Swiper {...swiperOptions} className="swiper-container autoslider4reverse swiper-container-vertical">
+                    <SwiperSlide>
+                        <img src="/assets/images/item-background/bg-action-6.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/assets/images/item-background/bg-action-3.png" alt="" />
+                    </SwiperSlide>
+                     <SwiperSlide>
+                        <img src="/assets/images/item-background/bg-action-2.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/assets/images/item-background/bg-action-5.png" alt="" />
+                    </SwiperSlide>
+                </Swiper>
 
-        </>
+            </>
     )
 }

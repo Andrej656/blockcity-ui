@@ -157,7 +157,7 @@ export default function Market() {
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-49.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-2.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
@@ -186,7 +186,7 @@ export default function Market() {
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-50.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-1.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
@@ -215,7 +215,7 @@ export default function Market() {
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-51.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-3.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
@@ -244,7 +244,7 @@ export default function Market() {
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-52.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-4.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
@@ -273,7 +273,7 @@ export default function Market() {
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-49.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-5.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>

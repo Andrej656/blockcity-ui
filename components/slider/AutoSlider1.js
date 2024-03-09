@@ -23,16 +23,24 @@ export default function AutoSlider1() {
         <>
             {/* <Swiper {...swiperOptions} className="abc">
                 <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
             </Swiper> */}
 
         
                 <Swiper {...swiperOptions} className="swiper-container autoslider3reverse swiper-container-vertical ">
                     <SwiperSlide>
-                        <img src="/assets/images/item-background/bg-action-1.png" alt="" />
+                        <img src="/assets/images/item-background/bg-action-5.png" alt="" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/assets/images/item-background/bg-action-2.png" alt="" />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="/assets/images/item-background/bg-action-1.png" alt="" />
                     </SwiperSlide>
+                     <SwiperSlide>
+                    <img src="/assets/images/item-background/bg-action-4.png" alt="" />
+                </SwiperSlide>
                 </Swiper>
         </>
     )
