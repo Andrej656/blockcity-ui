@@ -103,7 +103,7 @@ export default function History() {
                                 <div className="widget-history">
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>
@@ -113,7 +113,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-02.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">New NFT uploaded</Link></h6>
                                                 <span><Link href="#">By Marisol Pena</Link></span>
@@ -123,7 +123,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-03.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Jane Cooper</Link></span>
@@ -133,7 +133,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-04.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You placed a bid</Link></h6>
                                                 <span><Link href="#">Whirl wind NFT</Link></span>
@@ -143,7 +143,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Courtney Henry</Link></span>
@@ -153,7 +153,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>
@@ -163,7 +163,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-02.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">New NFT uploaded</Link></h6>
                                                 <span><Link href="#">By Marisol Pena</Link></span>
@@ -173,7 +173,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-03.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Jane Cooper</Link></span>
@@ -183,7 +183,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-04.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You placed a bid</Link></h6>
                                                 <span><Link href="#">Whirl wind NFT</Link></span>
@@ -193,7 +193,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Courtney Henry</Link></span>
@@ -203,7 +203,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-03.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Jane Cooper</Link></span>
@@ -213,7 +213,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-04.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You placed a bid</Link></h6>
                                                 <span><Link href="#">Whirl wind NFT</Link></span>
@@ -227,7 +227,7 @@ export default function History() {
                                 <div className="widget-history">
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>
@@ -237,7 +237,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-02.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">New NFT uploaded</Link></h6>
                                                 <span><Link href="#">By Marisol Pena</Link></span>
@@ -247,7 +247,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-03.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Jane Cooper</Link></span>
@@ -257,7 +257,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-04.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You placed a bid</Link></h6>
                                                 <span><Link href="#">Whirl wind NFT</Link></span>
@@ -267,7 +267,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Courtney Henry</Link></span>
@@ -277,7 +277,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>
@@ -291,7 +291,7 @@ export default function History() {
                                 <div className="widget-history">
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>
@@ -301,7 +301,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-02.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">New NFT uploaded</Link></h6>
                                                 <span><Link href="#">By Marisol Pena</Link></span>
@@ -311,7 +311,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-03.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Jane Cooper</Link></span>
@@ -321,7 +321,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-04.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You placed a bid</Link></h6>
                                                 <span><Link href="#">Whirl wind NFT</Link></span>
@@ -331,7 +331,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Courtney Henry</Link></span>
@@ -341,7 +341,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>
@@ -355,7 +355,7 @@ export default function History() {
                                 <div className="widget-history">
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>
@@ -365,7 +365,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-02.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">New NFT uploaded</Link></h6>
                                                 <span><Link href="#">By Marisol Pena</Link></span>
@@ -375,7 +375,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-03.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Jane Cooper</Link></span>
@@ -385,7 +385,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-04.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You placed a bid</Link></h6>
                                                 <span><Link href="#">Whirl wind NFT</Link></span>
@@ -395,7 +395,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">You followed a creator</Link></h6>
                                                 <span><Link href="#">Courtney Henry</Link></span>
@@ -405,7 +405,7 @@ export default function History() {
                                     </div>
                                     <div className="widget-creators-item flex items-center">
                                         <div className="author flex items-center flex-grow">
-                                            <img src="assets/images/avatar/avatar-small-01.png" alt="" />
+                                            <img src="assets/images/avatar/avatar-box-02.jpg" alt="" />
                                             <div className="info">
                                                 <h6><Link href="#">Lorem NFT sold</Link></h6>
                                                 <span><Link href="#">Sold at 1.32 ETH</Link></span>

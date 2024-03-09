@@ -59,53 +59,12 @@ export default function Settings() {
                                     <label>Email address*</label>
                                     <input type="email" id="email" placeholder="Your email" name="email" tabIndex={2} aria-required="true" required />
                                 </fieldset>
-                                <fieldset className="tel">
-                                    <label>Phone number</label>
-                                    <input type="tel" id="tel" placeholder="Your phone" name="tel" tabIndex={2} aria-required="true" required />
-                                </fieldset>
-                            </div>
+                              </div>
                             <fieldset className="message">
                                 <label>Your Bio</label>
                                 <textarea id="message" name="message" rows={4} placeholder="Say something about yourself" tabIndex={4} aria-required="true" required />
                             </fieldset>
-                            <div className="flex gap30">
-                                <fieldset className="name">
-                                    <label>Store name</label>
-                                    <input type="text" id="name" placeholder="Enter your name" name="name" tabIndex={2} aria-required="true" required />
-                                </fieldset>
-                                <fieldset className="curency">
-                                    <label>Curency</label>
-                                    <select className="select" name="curency" id="curency">
-                                        <option>Us Dollar ($)</option>
-                                        <option value="100$">100$</option>
-                                        <option value="1000$">1000$</option>
-                                        <option value="10000$">10000$</option>
-                                    </select>
-                                </fieldset>
-                            </div>
-                            <div className="flex gap30">
-                                <fieldset className="location">
-                                    <label>Location</label>
-                                    <select className="select" name="location" id="location">
-                                        <option>United States</option>
-                                        <option value="English">English</option>
-                                        <option value="Japan">Japan</option>
-                                        <option value="China">China</option>
-                                    </select>
-                                </fieldset>
-                                <fieldset className="address">
-                                    <label>Address</label>
-                                    <input type="text" id="address" placeholder="Your address" name="address" tabIndex={2} aria-required="true" required />
-                                </fieldset>
-                            </div>
-                            <fieldset className="address">
-                                <label>Address</label>
-                                <input type="text" id="address" placeholder="Your address" name="address" tabIndex={2} aria-required="true" required />
-                            </fieldset>
-                            <div className="btn-submit">
-                                <button className="w242 active mr-30">Cancel</button>
-                                <button className="w242" type="submit">Save</button>
-                            </div>
+                            
                         </form>
                     </div>
                     <div className="widget-edit mb-30 password">

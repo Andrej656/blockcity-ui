@@ -127,16 +127,16 @@ export default function Market() {
                         </div>
                         <ul className="widget-menu-tab">
                             <li className={activeIndex === 1 ? "item-title active" : "item-title"} onClick={() => handleOnClick(1)}>
-                                <span className="inner">Category</span>
+                                <span className="inner">SIP-009</span>
                             </li>
                             <li className={activeIndex === 2 ? "item-title active" : "item-title"} onClick={() => handleOnClick(2)}>
-                                <span className="inner">Items</span>
+                                <span className="inner">SIP-010</span>
                             </li>
                             <li className={activeIndex === 3 ? "item-title active" : "item-title"} onClick={() => handleOnClick(3)}>
-                                <span className="inner">Status</span>
+                                <span className="inner">STX-20</span>
                             </li>
                             <li className={activeIndex === 4 ? "item-title active" : "item-title"} onClick={() => handleOnClick(4)}>
-                                <span className="inner">Price range</span>
+                                <span className="inner">BRC-20</span>
                             </li>
                         </ul>
                         <div className="widget-content-tab">

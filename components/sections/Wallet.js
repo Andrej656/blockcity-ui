@@ -32,21 +32,21 @@ export default function Wallet() {
                                 <div className="box-wallet">
                                     <img src="assets/images/box-icon/wallet-01.png" alt="" />
                                     <h6><Link href="#">Leather</Link></h6>
-                                    <p>Throw myself down among the tall</p>
+                                    <p>Hiro wallet for Bitcoin and Stacks</p>
                                 </div>
                             </div>
                             <div className="col-item">
                                 <div className="box-wallet">
                                     <img src="assets/images/box-icon/wallet-02.png" alt="" />
                                     <h6><Link href="#">Xverse</Link></h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                    <p>Multi token wallet for Bitcoin-like chains</p>
                                 </div>
                             </div>
                             <div className="col-item">
                                 <div className="box-wallet">
                                     <img src="assets/images/box-icon/wallet-03.png" alt="" />
                                     <h6><Link href="#">Coinbase Wallet</Link></h6>
-                                    <p>Sed euismod ante et leo commodo, ac faucibus</p>
+                                    <p>CEX wallet for multiple token standards</p>
                                 </div>
                             </div>
                            
