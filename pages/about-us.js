@@ -78,8 +78,8 @@ export default function Home() {
                             <div className="row">
                                 <div className="col-12 pages-title">
                                     <div className="content">
-                                        <h1 data-wow-delay="0s" className="wow fadeInUp">Invest smart <br/> Earn 99$  per month passively </h1>
-                                        <p data-wow-delay="0.1s" className="wow fadeInUp">We're excited to announce our support for the upcoming Nakamoto release! You'll have the opportunity to lend your dormat Layer1 Bitcoins in a trustless way, Earn 99$  per monthing yields in Layer1 Bitcoin that can potentially grow over time</p>
+                                        <h1 data-wow-delay="0s" className="wow fadeInUp">Invest smart <br/> Earn per month passively </h1>
+                                        <p data-wow-delay="0.1s" className="wow fadeInUp">We're excited to announce our support for the upcoming Nakamoto release! You'll have the opportunity to lend your dormat Layer1 Bitcoins in a trustless way, Earn per month yields in Layer1 Bitcoin that can potentially grow over time</p>
                                         <div data-wow-delay="0.2s" className="wow fadeInUp flat-button flex justify-center">
                                             <Link href=" https://blockcityfi.substack.com/p/introduction" className="tf-button style-1 h50 w190">Get started <i className="icon-arrow-up-right2" /></Link>
                                         </div>
@@ -101,7 +101,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn per month</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -113,7 +113,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn per month</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -125,7 +125,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn per month</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -137,7 +137,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn per month</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -149,7 +149,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn per month</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -161,7 +161,7 @@ export default function Home() {
                                                             </Link>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn per month</span></a>
                                                         </div>
                                                     </div>
                                                 </SwiperSlide>
@@ -242,7 +242,7 @@ export default function Home() {
                 <div className="box-icon-item">
                     <img src="/assets/images/item-background/about-05.png" alt="" />
                     <div className="title"><Link href="#">HODL</Link></div>
-                    <p>Passive income made easy! HODL to Earn 99$  per month yields in Layer1 Bitcoin </p>
+                    <p>Passive income made easy! HODL to Earn per month yields in Layer1 Bitcoin </p>
                 </div>
             </div>
             <div data-wow-delay="0.1s" className="wow fadeInUp col-md-4">
@@ -256,7 +256,7 @@ export default function Home() {
                 <div className="box-icon-item">
                     <img src="/assets/images/item-background/about-01.png" alt="" />
                     <div className="title"><Link href="#">Lend</Link></div>
-                    <p>Lend your dormant Layer1 Bitcoin in our lending pool and Earn 99$  per month yields.</p>
+                    <p>Lend your dormant Layer1 Bitcoin in our lending pool and Earn per month yields.</p>
                 </div>
                 <br>
                 
@@ -395,7 +395,7 @@ export default function Home() {
                                 <div className="col-12">
                                     <div className="widget-income">
                                         <div className="title">Ride the Bitcoin Wave <br/> by HODLing ordinals  <br/><span className="tf-color"></span></div>
-                                        <p>Discover the hottest trend in the world of ordinals – HODL to Earn 99$  per month juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
+                                        <p>Discover the hottest trend in the world of ordinals – HODL to Earn per month juicy yields in Layer1 Bitcoin, all while keeping control of your assets!</p>
                                         <Link href="https://blockcityfi.substack.com/p/join-the-waitlist" className="tf-button style-1 h50 w190">Get started<i className="icon-arrow-up-right2" /></Link>
                                         <div className="image">
                                            
