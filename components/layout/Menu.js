@@ -12,6 +12,8 @@ export default function Menu() {
       <li className={`menu-item ${router.pathname === "/about-us" ? "current-item" : ""}`}>
         <Link href="/about-us">About us</Link>
       </li>
+      <li className={`menu-item ${router.pathname === "/market" ? "current-item" : ""}`}>
+        <Link href="/market">Market</Link>
       </li>
     </ul>
   );
