@@ -58,10 +58,10 @@ export default function Market() {
                         <div className="tf-tsparticles">
                             <div id="tsparticles1" data-color="#161616" data-line="#000" />
                         </div>
-                        <h2>Discover, create and sell your own NFT</h2>
+                        <h2>We support most of token standards on Bitcoin and Stacks</h2>
                         <div className="flat-button flex">
                             <Link href="#" className="tf-button style-2 h50 w190 mr-10">Explore now<i className="icon-arrow-up-right2" /></Link>
-                            <Link href="#" className="tf-button style-2 h50 w230">Create your first NFT<i className="icon-arrow-up-right2" /></Link>
+                            <Link href="#" className="tf-button style-2 h50 w230">Create your first asset<i className="icon-arrow-up-right2" /></Link>
                         </div>
                         <div className="bg-home7">
                             <AutoSlider1 />
@@ -127,16 +127,16 @@ export default function Market() {
                         </div>
                         <ul className="widget-menu-tab">
                             <li className={activeIndex === 1 ? "item-title active" : "item-title"} onClick={() => handleOnClick(1)}>
-                                <span className="inner">Category</span>
+                                <span className="inner">SIP-009</span>
                             </li>
                             <li className={activeIndex === 2 ? "item-title active" : "item-title"} onClick={() => handleOnClick(2)}>
-                                <span className="inner">Items</span>
+                                <span className="inner">SIP-010</span>
                             </li>
                             <li className={activeIndex === 3 ? "item-title active" : "item-title"} onClick={() => handleOnClick(3)}>
-                                <span className="inner">Status</span>
+                                <span className="inner">STX-20</span>
                             </li>
                             <li className={activeIndex === 4 ? "item-title active" : "item-title"} onClick={() => handleOnClick(4)}>
-                                <span className="inner">Price range</span>
+                                <span className="inner">BRC-20</span>
                             </li>
                         </ul>
                         <div className="widget-content-tab">
@@ -152,23 +152,23 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-49.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-09.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -181,23 +181,23 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-50.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-08.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -210,23 +210,23 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-51.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-10.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -239,23 +239,23 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-52.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-11.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -268,23 +268,23 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-49.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-12.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -297,23 +297,23 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
                                                         <Link href="#">
-                                                            <img src="assets/images/box-item/card-item-50.jpg" alt="" />
+                                                            <img src="assets/images/box-item/card-item-08.jpg" alt="" />
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Ordinals</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -337,7 +337,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -346,14 +346,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -366,7 +366,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -375,14 +375,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -395,7 +395,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -404,14 +404,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -424,7 +424,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -433,14 +433,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -453,7 +453,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -462,14 +462,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -482,7 +482,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -491,14 +491,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -522,7 +522,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -531,14 +531,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -551,7 +551,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -560,14 +560,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -580,7 +580,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -589,14 +589,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -609,7 +609,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -618,14 +618,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -638,7 +638,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -647,14 +647,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -667,7 +667,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -676,14 +676,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -707,7 +707,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -716,14 +716,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -736,7 +736,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -745,14 +745,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -765,7 +765,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -774,14 +774,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -794,7 +794,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -803,14 +803,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -823,7 +823,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -832,14 +832,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -852,7 +852,7 @@ export default function Market() {
                                                         </div>
                                                         <div className="info">
                                                             <span>Created by:</span>
-                                                            <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                            <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                         </div>
                                                     </div>
                                                     <div className="card-media">
@@ -861,14 +861,14 @@ export default function Market() {
                                                         </Link>
                                                         <span className="wishlist-button icon-heart" />
                                                     </div>
-                                                    <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                                    <h5 className="name"><Link href="#">Collection</Link></h5>
                                                     <div className="meta-info flex items-center justify-between">
                                                         <div>
                                                             <span className="text-bid">Current Bid</span>
                                                             <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                                         </div>
                                                         <div className="button-place-bid">
-                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -963,17 +963,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -991,17 +991,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1019,17 +1019,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1047,17 +1047,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1075,17 +1075,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1103,17 +1103,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1131,17 +1131,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1159,17 +1159,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1191,17 +1191,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1219,17 +1219,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1247,17 +1247,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1275,17 +1275,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1303,17 +1303,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1331,17 +1331,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1359,17 +1359,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1387,17 +1387,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1419,17 +1419,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1447,17 +1447,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1475,17 +1475,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1503,17 +1503,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1531,17 +1531,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1559,17 +1559,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1587,17 +1587,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1615,17 +1615,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1647,17 +1647,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1675,17 +1675,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1703,17 +1703,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1731,17 +1731,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1759,17 +1759,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1787,17 +1787,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1815,17 +1815,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1843,17 +1843,17 @@ export default function Market() {
                                                 </Link>
                                                 <span className="wishlist-button icon-heart" />
                                                 <div className="button-place-bid">
-                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                                    <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                                 </div>
                                             </div>
-                                            <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                            <h5 className="name"><Link href="#">Collection</Link></h5>
                                             <div className="author flex items-center">
                                                 <div className="avatar">
-                                                    <img src="assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                                    <img src="assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                                 </div>
                                                 <div className="info">
                                                     <span>Created by:</span>
-                                                    <h6><Link href="author-2.html">Marvin McKinney</Link> </h6>
+                                                    <h6><Link href="author-2.html">Blockcity</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="divider" />
@@ -1867,190 +1867,10 @@ export default function Market() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="side-bar">
-                    <div className="widget widget-recently">
-                        <h5 className="title-widget">Recently added</h5>
-                        <div className="card-small-main">
-                            <img src="assets/images/blog/sidebar-05.jpg" alt="" />
-                            <div className="card-bottom">
-                                <h5><Link href="#">Photography</Link></h5>
-                                <span className="date">16hr ago</span>
-                            </div>
-                        </div>
-                        <div className="card-small">
-                            <div className="author">
-                                <img src="assets/images/blog/sidebar-06.jpg" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Propw</Link></h6>
-                                    <p><Link href="#">@themes</Link></p>
-                                </div>
-                            </div>
-                            <span className="date">Mon, 08 May </span>
-                        </div>
-                        <div className="card-small">
-                            <div className="author">
-                                <img src="assets/images/blog/sidebar-07.jpg" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Propw</Link></h6>
-                                    <p><Link href="#">@themes</Link></p>
-                                </div>
-                            </div>
-                            <span className="date">Mon, 08 May </span>
-                        </div>
-                        <div className="card-small">
-                            <div className="author">
-                                <img src="assets/images/blog/sidebar-08.jpg" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Propw</Link></h6>
-                                    <p><Link href="#">@themes</Link></p>
-                                </div>
-                            </div>
-                            <span className="date">Mon, 08 May </span>
-                        </div>
-                    </div>
-                    <div className="widget widget-creators">
-                        <div className="flex items-center justify-between">
-                            <h5 className="title-widget">Top Creators</h5>
-                            <Link className="see-all" href="#">See all</Link>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="order">1. </div>
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-01.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Brooklyn Simmons</Link></h6>
-                                    <span><Link href="#">@themes</Link></span>
-                                </div>
-                            </div>
-                            <button className="follow">Follow</button>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="order">2. </div>
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-02.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Brooklyn Simmons</Link></h6>
-                                    <span><Link href="#">@themes</Link></span>
-                                </div>
-                            </div>
-                            <button className="follow">Follow</button>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="order">3. </div>
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-03.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Brooklyn Simmons</Link></h6>
-                                    <span><Link href="#">@themes</Link></span>
-                                </div>
-                            </div>
-                            <button className="follow">Follow</button>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="order">4. </div>
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-04.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Brooklyn Simmons</Link></h6>
-                                    <span><Link href="#">@themes</Link></span>
-                                </div>
-                            </div>
-                            <button className="follow">Follow</button>
-                        </div>
-                        <div className="widget-creators-item flex items-center">
-                            <div className="order">5. </div>
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-01.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Brooklyn Simmons</Link></h6>
-                                    <span><Link href="#">@themes</Link></span>
-                                </div>
-                            </div>
-                            <button className="follow">Follow</button>
-                        </div>
-                    </div>
-                    <div className="widget widget-coins">
-                        <h5 className="title-widget">Trending coins</h5>
-                        <div className="widget-coins-item flex items-center mb-20">
-                            <img src="assets/images/box-icon/coin-01.png" alt="" />
-                            <p><Link href="#">Bitcoin</Link></p>
-                        </div>
-                        <div className="widget-coins-item flex items-center mb-20">
-                            <img src="assets/images/box-icon/coin-02.png" alt="" />
-                            <p><Link href="#">Ethereum</Link></p>
-                        </div>
-                        <div className="widget-coins-item flex items-center mb-20">
-                            <img src="assets/images/box-icon/coin-03.png" alt="" />
-                            <p><Link href="#">Cardano</Link></p>
-                        </div>
-                        <div className="widget-coins-item flex items-center mb-20">
-                            <img src="assets/images/box-icon/coin-04.png" alt="" />
-                            <p><Link href="#">Solana</Link></p>
-                        </div>
-                        <div className="widget-coins-item flex items-center">
-                            <img src="assets/images/box-icon/coin-05.png" alt="" />
-                            <p><Link href="#">Litecoin</Link></p>
-                        </div>
-                    </div>
-                    <div className="widget widget-history">
-                        <div className="flex items-center justify-between">
-                            <h5 className="title-widget">History</h5>
-                            <Link className="see-all" href="#">See all</Link>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-01.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">Lorem NFT sold</Link></h6>
-                                    <span><Link href="#">Sold at 1.32 ETH</Link></span>
-                                </div>
-                            </div>
-                            <span className="time">Just now</span>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-02.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">New NFT uploaded</Link></h6>
-                                    <span><Link href="#">By Marisol Pena</Link></span>
-                                </div>
-                            </div>
-                            <span className="time">1hr ago</span>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-03.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">You followed a creator</Link></h6>
-                                    <span><Link href="#">Jane Cooper</Link></span>
-                                </div>
-                            </div>
-                            <span className="time">2hr ago</span>
-                        </div>
-                        <div className="widget-creators-item flex items-center mb-20">
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-04.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">You placed a bid</Link></h6>
-                                    <span><Link href="#">Whirl wind NFT</Link></span>
-                                </div>
-                            </div>
-                            <span className="time">4hr ago</span>
-                        </div>
-                        <div className="widget-creators-item flex items-center">
-                            <div className="author flex items-center flex-grow">
-                                <img src="assets/images/avatar/avatar-small-01.png" alt="" />
-                                <div className="info">
-                                    <h6><Link href="#">You followed a creator</Link></h6>
-                                    <span><Link href="#">Courtney Henry</Link></span>
-                                </div>
-                            </div>
-                            <span className="time">16hr ago</span>
-                        </div>
+             
                     </div>
                 </div>
-            </div>
+            
 
             <BidModal handleBidModal={handleBidModal} isBidModal={isBidModal} />
         </>

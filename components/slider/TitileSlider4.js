@@ -48,7 +48,7 @@ export default function TitileSlider4() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="author flex items-center">
                             <div className="avatar">
@@ -73,7 +73,7 @@ export default function TitileSlider4() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="author flex items-center">
                             <div className="avatar">
@@ -98,7 +98,7 @@ export default function TitileSlider4() {
                             </Link>
                         </div>
                         <div className="button-place-bid">
-                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                            <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                         </div>
                         <div className="author flex items-center">
                             <div className="avatar">

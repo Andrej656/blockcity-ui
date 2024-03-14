@@ -321,7 +321,7 @@
 }
 
 .tf-card-article .card-title p {
-    color: rgba(255, 255, 255, 0.53);
+    color: #F2A900;
     font-size: 14px;
     font-family: 'Azeret Mono';
     line-height: 22px;
@@ -381,7 +381,7 @@
 /* -------------------------------------- */
 .tf-card-box { 
     border-radius: 20px;
-    background: #1E1E1E;
+    background: #08080e;
     padding: 12px 12px 17px 12px;
     margin-bottom: 40px;
     -webkit-transition: all 0.2s ease;
@@ -542,7 +542,7 @@
 }
 
 .text-bid {
-    color: rgba(255, 255, 255, 0.3);
+    color: #F2A900;
     font-size: 12px;
     font-family: 'Azeret Mono';
     font-weight: 400;
@@ -588,7 +588,7 @@
 
 .tf-card-box.style-1.bg-white .meta-info .text-bid,
 .tf-card-box.style-1.bg-white .author .info span {
-    color: rgba(22, 22, 22, 0.3);
+    color: rgba(24, 27, 202, 0.3);
 }
 
 .tf-card-box.style-1.bg-white .divider {
@@ -753,7 +753,7 @@
 
 .tf-card-box.style-3 .card-bottom {
     border-radius: 0px 0px 16px 16px;
-    background: rgba(255, 255, 255, 0.20);
+    background: rgba(132, 124, 233, 0.2);
     backdrop-filter: blur(2px);
     position: absolute;
     padding: 20px 16px 20px 10px;
@@ -2304,19 +2304,18 @@
 }
 
 .tf-box-icon.style-1.step1 .rainbow {
-    background: linear-gradient(129deg, #FDCF00, #FD9601);
+    background: linear-gradient(129deg, #00a0fd, #FD9601);
 }
 
 .tf-box-icon.style-1.step2 .rainbow {
-    background: linear-gradient(129deg, #E5F203, #5B8500);
+    background: linear-gradient(129deg, #0317f2, #5B8500);
 }
 
 .tf-box-icon.style-1.step3 .rainbow {
     background: linear-gradient(129deg, #EA66E2, #3E4FE7);
 }
-
 .tf-box-icon.style-1.step4 .rainbow {
-    background: linear-gradient(129deg, #FFEB00, #2DC41A);
+    background: linear-gradient(129deg, #3E4FE7, #2DC41A);
 }
 
 .tf-box-icon.style-1:hover .rainbow {
@@ -2347,7 +2346,7 @@
     padding: 50px 40px;
     margin-left: 5px;
     margin-right: 5px;
-    background-color: rgba(221, 242, 71, 1);
+    background-color: #5546ff;
     border-radius: 30px;
     overflow: hidden;
     position: relative;
@@ -2371,7 +2370,7 @@
 
 .tf-button.style-2 {
     background-color: rgba(22, 22, 22, 1);
-    color: rgba(221, 242, 71, 1);
+    color: #5546ff;
     gap: 10px;
     flex-shrink: 0;
 }
@@ -3519,7 +3518,7 @@ form label i.icon-star {
 }
 
 form label i.icon-star.active {
-    color: rgba(221, 242, 71, 1);
+    color: #5546ff;
 }
 
 /* style-1 */
@@ -4079,7 +4078,7 @@ button.follow:hover {
 }
 
 .box-wallet h6 {
-    color: #FFF;
+    color: #1515a3;
     font-size: 18px;
     font-weight: 800;
     line-height: 25px;
@@ -4306,7 +4305,7 @@ button.follow:hover {
 }
 
 .widget-edit.setting input:checked[type=checkbox]::before {
-    background: rgba(221, 242, 71, 1);
+    background: #5546ff;
     left: 30px;
 }
 
@@ -4553,7 +4552,7 @@ button.follow:hover {
 
 .flat-accordion .flat-toggle .toggle-title.active ,
 .flat-accordion2 .flat-toggle2 .toggle-title.active {
-    color: rgba(221, 242, 71, 1);
+    color: #5546ff;
 }
 
 .flat-accordion .flat-toggle .toggle-title::after ,

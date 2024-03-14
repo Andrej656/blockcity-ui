@@ -49,7 +49,7 @@ export default function Home() {
                             <div className="col-12 pages-title">
                                 <div className="content">
                                     <h1>Ordinals - The Future <br/> of Passive Income </h1>
-                                    <p>HODL to Earn Yields in Layer1 Bitcoin</p>
+                                    <p>HODL to Earn per month Yields in Layer1 Bitcoin</p>
                                     <div className="flat-button flex">
                                         <Link href="https://blockcityfi.substack.com/p/join-the-waitlist" className="tf-button style-1 h50 w230 mr-10">Join Waitlist <i className="icon-arrow-up-right2" /></Link>
                                         <Link href="https://blockcityfi.substack.com/t/announcements" className="tf-button style-1 h50 w190 active">Explore now <i className="icon-arrow-up-right2" /></Link>

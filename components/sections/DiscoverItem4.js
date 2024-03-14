@@ -202,11 +202,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -215,14 +215,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -231,11 +231,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -244,14 +244,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -260,11 +260,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -273,14 +273,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -289,11 +289,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -302,14 +302,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -318,11 +318,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -331,14 +331,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -347,11 +347,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -360,14 +360,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -376,11 +376,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -389,14 +389,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -405,11 +405,11 @@ export default function DiscoverItem4() {
                             <div className="tf-card-box style-4">
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Created by:</span>
-                                        <h6><Link href="/author-2">Marvin McKinney</Link> </h6>
+                                        <h6><Link href="/author-2">Blockcity</Link> </h6>
                                     </div>
                                 </div>
                                 <div className="card-media">
@@ -418,14 +418,14 @@ export default function DiscoverItem4() {
                                     </Link>
                                     <span className="wishlist-button icon-heart" />
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="meta-info flex items-center justify-between">
                                     <div>
                                         <span className="text-bid">Current Bid</span>
                                         <h6 className="price gem"><i className="icon-gem" />0,34</h6>
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
                             </div>

@@ -12,9 +12,6 @@ export default function Menu() {
       <li className={`menu-item ${router.pathname === "/about-us" ? "current-item" : ""}`}>
         <Link href="/about-us">About us</Link>
       </li>
-      {/* Add the Market menu item */}
-      <li className={`menu-item ${router.pathname === "/market" ? "current-item" : ""}`}>
-        <Link href="/market">Blockcity</Link>
       </li>
     </ul>
   );

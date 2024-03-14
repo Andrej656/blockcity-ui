@@ -212,13 +212,13 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Posted by:</span>
@@ -243,10 +243,10 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
                                         <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
@@ -274,13 +274,13 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-03.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Posted by:</span>
@@ -305,13 +305,13 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-04.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Posted by:</span>
@@ -336,10 +336,10 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
                                         <img src="/assets/images/avatar/avatar-box-05.jpg" alt="Image" />
@@ -367,10 +367,10 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
                                         <img src="/assets/images/avatar/avatar-box-06.jpg" alt="Image" />
@@ -398,10 +398,10 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
                                         <img src="/assets/images/avatar/avatar-box-07.jpg" alt="Image" />
@@ -429,13 +429,13 @@ export default function DiscoverItem3() {
                                         <Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} />
                                     </div>
                                     <div className="button-place-bid">
-                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Place Bid</span></a>
+                                        <a onClick={handleBidModal} href="#" className="tf-button"><span>Earn 99$  per month</span></a>
                                     </div>
                                 </div>
-                                <h5 className="name"><Link href="#">Dayco serpentine belt</Link></h5>
+                                <h5 className="name"><Link href="#">Collection</Link></h5>
                                 <div className="author flex items-center">
                                     <div className="avatar">
-                                        <img src="/assets/images/avatar/avatar-box-01.jpg" alt="Image" />
+                                        <img src="/assets/images/avatar/avatar-box-02.jpg" alt="Image" />
                                     </div>
                                     <div className="info">
                                         <span>Posted by:</span>
